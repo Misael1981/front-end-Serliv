@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Viaoda+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-text: "Roboto", sans-serif;
+    --font-title: "Viaoda Libre", serif;
+
+    --bg-header: #162028;
+    --bg-section: #003d52;
+    --bg-footer: #0b171f;
+
+    --color-txt: #555;
+    --color-txt-menu: #425564;
+    --color-txt-footer: #6f8597;
+}

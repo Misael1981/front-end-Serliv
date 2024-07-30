@@ -89,6 +89,49 @@
 </div>
 
 
+<div>
+
+### Variáveis
+
+[Variáveis](variaveis-css/variaveis.md)
+
+[Escopo](variaveis-css/escopo.md)
+
+</div>
+
+<div>
+
+### Unidades de Medidas
+
+[em rem porcentagem](Unidades-de-medida/em-rem-porcentagem.md)
+
+[vw e vh](Unidades-de-medida/vw-vh.md)
+
+[Unidade ch](Unidades-de-medida/unidade-ch.md)
+
+[Função calc()](Unidades-de-medida/funcaocalc.md)
+
+</div>
+
+<div>
+
+### Avançando no CSS
+
+[Border radius](avancando-CSS/border-radius.md)
+
+[Box-shadow](avancando-CSS/box-shadow.md)
+
+[Text-shadow](avancando-CSS/text-shadow.md)
+
+[Outline](avancando-CSS/outline.md)
+
+[Font-face](avancando-CSS/font-face.md)
+
+[Transition](avancando-CSS/transition.md)
+
+</div>
+
+
 </div>
 
 <h2> 📞 Contato</h2>

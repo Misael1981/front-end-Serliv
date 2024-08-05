@@ -5,16 +5,12 @@
 
 <h2> 🚀 Tecnologias
 
-<div style="display: inline_block; text-align:center"><br>
+<div align="center"><br>
     <img>
     <img align="center" alt="Misael-Js" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" alt="Misael-HTML" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="Misael-CSS" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div></h2>
-
-```
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px">
-```
 
 <div style="display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
 

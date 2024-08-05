@@ -1,5 +1,5 @@
-<div style= "text-align:center">
-    <img align="center" width="200px" src="imagens/img/logo-serliv.svg"> 
+<div align="center">
+    <img width="200px" src="imagens/img/logo-serliv.svg"> 
 </div><br>
 <h1 style= "text-align:center">WebDesign Front-end Fundamentos: HTML, CSS, Lógica de programação e JavaScript</h1>
 
@@ -12,9 +12,11 @@
     <img align="center" alt="Misael-CSS" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div></h2>
 
+```
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px">
+```
 
-<div display="flex">
+<div style="display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
 
 <div>
 

@@ -30,3 +30,5 @@ O conteúdo do elemento `<summary>` pode ser qualquer conteúdo de cabeçalho, t
 - atributo `open`: Atributo booleano, caso seja incorpado fara com que os elementos estajam abertos já na primeira visualização do usuário
 
 Esse código criará um bloco de conteúdo com o título "Clique para ver mais detalhes". Inicialmente, o conteúdo abaixo do `<summary>`estará oculto. Ao clicar no título, o conteúdo será exibido.
+
+### [Voltar ao Readme principal](../README.md)

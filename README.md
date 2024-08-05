@@ -3,7 +3,7 @@
 </div><br>
 <h1 style= "text-align:center">WebDesign Front-end Fundamentos: HTML, CSS, Lógica de programação e JavaScript</h1>
 
-<h2> 🚀 Tecnologias
+<h2 align="center"> 🚀 Tecnologias
 
 <div align="center"><br>
     <img>
@@ -128,6 +128,27 @@
 [Font-face](avancando-CSS/font-face.md)
 
 [Transition](avancando-CSS/transition.md)
+
+</div>
+
+<div>
+
+### Listas, tabelas e details
+
+[Listas](Listas-Tabelas-Details/listas.md)
+
+[Tabelas](Listas-Tabelas-Details/tabelas.md)
+
+[Datails e Sumary](Listas-Tabelas-Details/datais-sumary.md)
+
+</div>
+
+### Endereço, Iframe e Reset
+
+[Adress e Iframe](endereco-iframe-reset/adress-iframe.md)
+
+[Reset](endereco-iframe-reset/reset.md)
+
 
 </div>
 

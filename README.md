@@ -143,12 +143,13 @@
 
 </div>
 
+<div>
+
 ### Endereço, Iframe e Reset
 
 [Adress e Iframe](endereco-iframe-reset/adress-iframe.md)
 
 [Reset](endereco-iframe-reset/reset.md)
-
 
 </div>
 

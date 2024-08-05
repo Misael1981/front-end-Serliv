@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Tabelas</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      table {
+        width: 80%;
+        margin: auto;
+        background-color: beige;
+        border-collapse: collapse;
+      }
+
+      th {
+        background-color: rgb(189, 189, 169);
+        border: 2px solid black;
+        padding: 16px;
+      }
+
+      td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+      }
+
+      tfoot tr td {
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>Tarefa 1</li>
+        <li>Tarefa 2
+          <ul>
+            <li>Subtarefa 2.1</li>
+            <li>Subtarefa 2.2</li>
+          </ul>
+        </li>
+        <li>Tarefa 3</li>
+    </ul>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de páginas web.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilo para design de páginas web.</dd>
+    </dl>
+
+    <table>
+      <tr>
+        <td>Célula 1</td>
+        <td>Célula 2</td>
+      </tr>
+      <tr>
+        <td>Célula 3</td>
+        <td>Célula 4</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td colspan="2">Cabeçalho que ocupa duas colunas</td>
+      </tr>
+      <tr>
+        <td>Célula 1</td>
+        <td rowspan="2">Célula que ocupa duas linhas</td>
+      </tr>
+      <tr>
+        <td>Célula 3</td>
+      </tr>
+    </table>
+
+    <h2>Tabelas</h2>
+
+    <div>
+      <table>
+        <caption>Tabela de preço de cursos</caption>
+
+        <thead>
+          <tr>
+            <th>Área</th>
+            <th>Cursos</th>
+            <th>Investimento</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td rowspan="3">Desing</td>
+            <td>InDesign</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+
+          <tr>
+            <td>Photoshop</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+
+          <tr>
+            <td>Ilustrator</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+
+          <tr>
+            <td rowspan="4">Development</td>
+            <td>HTML</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+
+          <tr>
+            <td>CSS</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+
+          <tr>
+            <td>JavaScrpt</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+
+          <tr>
+            <td>PHP</td>
+            <td>R$ 1.000,00</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              Valores sujetos a alterações sem prévio aviso
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <div>
+      <details>
+        <summary>Clique para ver mais detalhes</summary>
+        <p>Este é o conteúdo oculto inicialmente.</p>
+        <p>Mais informações podem ser adicionadas aqui.</p>
+      </details>
+    </div>
+    
+</body>
+</html>

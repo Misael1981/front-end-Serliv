@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Components</title>
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>z
+     <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#">
+                <img src="imagens/perfil.png" alt="Fotografia de um homem" class="perfil-img">
+            </a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tipografia.html">Tipografia</a></li>
+                <li><a href="cards.html">Cards</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="botoes.html">Botões</a></li>
+                <li><a href="tabelas.html">Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>My Components</h1>
+        <article class="highlight">
+            <h2>Tipografia</h2>
+            <p>A Tipografia transmite nossas definições de tamanho e espaçamento, e deve ser utilizada respeitando a hierarquia dos elementos na interface</p>
+        </article>
+
+        <section>
+            <h3>Elementos</h3>
+
+            <article>
+                <h4>Textos</h4>
+
+                <p>Esse texto está esrito em <b>negrito</b> e esse texto é um <strong>texto forte</strong>.</p>
+                <p>Esse texto está em <i>itálico</i>, e este está <em>com ênfase</em>.</p>
+                <p>Isto é um texto escrito de forma errada <u class="underline">errada</u>, e isso é um <a href="#">link</a>.</p>
+            </article>
+
+            <article>
+                <h4>Sobreescrito e Subscrito</h4>
+                <p>3<sup>2</sup> é igual à 9</p>
+                <p>A fórmula da água é H<sub>2</sub>O</p>
+            </article>
+
+            <article>
+                <h4>Abreviações</h4>
+                <p>Para criar páginas na web precisamos aprender sobre 
+                    <a href="#html">
+                    <abbr title="HiperText Markup Language">HTML</abbr></a>  
+                </p>
+                <p>O <dfn id="html"><abbr title="HiperText Markup Language">HTML</abbr></dfn> é a principal linguagem da web onde podemos incluir nosso conteúdo de forma semântica.</p>
+            </article>
+
+            <article>
+                <h4>Citações</h4>
+                <blockquote>
+                    <p>O ruim não é ter trabalho. O ruim é ter de trabalhar.</p>
+                    <cite>Seu Madruga</cite>
+                </blockquote>
+
+                <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+                    O elemento HTML &lt;blockquote&gt; indica que o texto incluso é uma citação estendida. 
+                    Normalmente, isso é renderizado visualmente por recuo (veja Notas para saber como alterá-lo).
+                    Uma URL para a fonte da citação pode ser dada usando o atributo, 
+                    enquanto uma representação de texto da fonte pode ser dada usando o elemento.
+                    <cite>MDN</cite>
+                </blockquote>
+
+                <p>Segundo o Seu Madruga: <q>A vingança nunca é plena mata a alma e envenena</q>.</p>
+
+                <p>
+                    De acordo com site da Mozila
+                    <q cite="https://www.mozilla.org/pt-BR/about/history/details/">
+                        Firefox 1.0 foi lançado em 2004 e se tornou um grande sucesso.</q>
+                </p>
+
+                <p>O filme <cite>Escola do Rock</cite> contém várias músicas antigas.</p>
+            </article>
+
+            <article>
+                <h4>Coisas de Computador</h4>
+
+                <p>A propriedade <code>background</code> do CSS serve pra colocar uma imagem de fundo.</p>
+
+                <pre>
+Este texto é um texto pré formatado.
+                </pre>
+                <pre>
+                    <code>
+    .main-header {
+        flex: 0 0 26rem;
+        background-color: var(--secondary-color);
+    }
+                    </code>
+                </pre>
+
+                <p>
+                    Após executar o método <code>push()</code> obtive o retorno <samp lang="en-US">undefined has not a push() function</samp>.
+                </p>
+
+                <p>Pressione as teclas <kbd>CTRL</kbd> + <kbd>C</kbd> para copiar.</p>
+            </article>
+
+            <article>
+                <h4>Datas e Horas</h4>
+
+                <p>O evento ocorrerá em <time datetime="2025-11-10">10 de novembro de 2025</time></p>
+                <p>O evento ocorrerá em <time datetime="2025-11-10">10/11/2025</time>.</p>
+                <p>O evento ocorrerá às <time datetime="2025-11-10 T20:00:00-03:00">20h00 do dia 10 de Novembro de 2025</time>.</p>
+
+                <h5 lang="en-US">JS Conference</h5>
+                <p>O evento iniciará exatamente às <time datetime="19:00">19h00</time></p>
+
+                <p>O evento ocorrerá às 20h00 do dia <del datetime="2025-11-05"> 10 de Novembro de 2025</del>
+                    <ins> <time datetime="2025-11-11T20:00:00-03:00">11 de Novembro de 2025</time></ins>.
+                </p>
+            </article>
+        </section>
+
+        
+    </main>
+</body>
+</html>

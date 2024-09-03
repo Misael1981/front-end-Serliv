@@ -1,0 +1,39 @@
+@media (width <= 750px) {
+    .navBar {
+        display: none;
+    }
+
+    .first-banner {
+        flex-wrap: wrap;
+        height: 80vh;
+    }
+
+    .first-banner__img {
+        width: 70vw;
+    }
+
+    .first-banner__img img {
+        width: 100%;
+    }
+
+    .cursos__cards-modulo {
+        width: 80vw;
+    }
+
+    .cursos__cards {
+        flex-wrap: wrap;
+    }
+
+    .nossa-escola__container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .nossa-escola__img {
+        width: 80vw;
+        padding: 4rem;
+    }
+
+    .nossa-escola__img img {
+        width: 100%;
+    }
+}

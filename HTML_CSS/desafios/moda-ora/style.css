@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Viaoda+Libre&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-text: "Roboto", sans-serif;
+    --font-title: "Viaoda Libre", serif;
+
+    --bg-header: #162028;
+    --bg-section: #003d52;
+    --bg-footer: #0b171f;
+
+    --color-txt: #555;
+    --color-txt-menu: #425564;
+    --color-txt-footer: #6f8597;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*========= Header ========*/
+
+header {
+    height: 70vh;
+    background-image: url(./img/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.header__menu {
+    background-color: var(--bg-header);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+
+.header__title {
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+    color: var(--color-txt-footer);
+}
+
+nav {
+    width: 50%;
+}
+
+nav .header__nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .header__nav-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-txt-menu);
+    font-size: 2rem;
+    font-family: var(--font-title);
+    font-weight: 900;
+}
+
+nav .header__nav-menu li a:hover {
+    border-bottom: 2px solid var(--color-txt-footer);
+    color: var(--color-txt-footer);
+}
+
+/*========= Container Cards ========*/
+
+.container-cards {
+    padding: 0 10%;
+}
+
+.container-apresentacao {
+    padding: 8rem 0;
+    color: var(--color-txt);
+}
+
+.container-apresentacao h2 {
+    font-family: var(--font-title);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container-apresentacao p {
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    color: var(--color-txt);
+    padding-bottom: 5rem;
+}
+
+.cards h3 {
+    font-family: var(--font-title);
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.cards p {
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*========= Banner ========*/
+
+.banner {
+    height: 70vh;
+    background-image: url(img/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.banner__content {
+    padding: 8%;
+}
+
+.banner h2 {
+    font-family: var(--font-title);
+    color: hwb(0 100% 0% / 0.904);
+    font-size: 5rem;
+}
+
+.banner p {
+    width: 80vh;
+    font-family: var(--font-text);
+    color: hwb(0 100% 0% / 0.904);
+    font-size: 1.8rem;
+    padding-top: 5rem;
+}
+
+.footer {
+    height: 8vh;
+    background-color: var(--bg-footer);
+    color: var(--color-txt-footer);
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+
+
+
+
+
+
+

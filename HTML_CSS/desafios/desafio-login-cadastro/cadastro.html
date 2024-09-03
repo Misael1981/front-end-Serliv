@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Cadastro</title>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="cadastro">
+        <fieldset class="cadastro__content">
+            <legend class="cadastro__title">Cadastre-se</legend>
+            <label class="cadastro__labels" for="user">Usuário
+                <input type="text" id="user">
+            </label>
+            <label class="cadastro__labels" for="email">Email
+                <input type="email" name="email" id="email">
+            </label>
+            <label class="cadastro__labels" for="password">Senha
+                <input type="password" name="password" id="password">
+            </label>
+            <div class="cadastro__buttons">
+                <button type="submit">Cadastre-se</button>
+                <span>Já possui cadastro?<a href="index.html">Faça login</a></span>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

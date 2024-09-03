@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --bg-yelow: #FED001;
+    --bg-dark: #2a2a2a;
+    --bg-ligth: #fafafa;
+    --bd-blue: #003464;
+}
+
+html {
+    font: 400 62.5% "Inter", sans-serif;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.btn {
+    text-decoration: none;
+    color: #2a2a2a;
+    background-color: var(--bg-yelow);
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: var(--bg-dark);
+    color: var(--bg-yelow);
+}
+
+/*======= Header =======*/
+
+.header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: var(--bg-dark);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav__menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--bg-yelow);
+    font-size: 2rem;
+    border: 1px solid var(--bg-yelow);
+    padding: 1rem;
+}
+
+.nav__menu li a:hover {
+    background-color: var(--bg-yelow);
+    color: var(--bg-dark);
+}
+
+/*======= First Banner =======*/
+
+.first-banner__container {
+    background-image: linear-gradient(to top, #e6c327, #ccae36, #beab5d, #f1e099);
+}
+
+.first-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-banner__content h1 {
+    font-size: 4.5rem;
+}
+
+.first-banner__content span {
+    text-transform: uppercase;
+}
+
+/*======= Cursos =======*/
+
+.cursos {
+    background-color: var(--bg-ligth);
+}
+
+.cursos__title {
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.cursos__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.cursos__cards-modulo {
+    width: 25vw;
+}
+
+.cursos__cards-modulo img {
+    width: 100%;
+}
+
+.cards-content {
+    padding: 1.8rem;
+}
+
+.cards-content h2 {
+    font-size: 2.2rem;
+    color: var(--bg-dark);
+    font-weight: 700;
+}
+
+.cards-content p {
+    font-size: 1.2rem;
+    color: var(--bg-dark);
+}
+
+.cursos__btn {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+/*======= Nossa Escola =======*/
+.nossa-escola {
+    background-color: var(--bd-blue);
+}
+
+.nossa-escola__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nossa-escola__content h2 {
+    font-size: 3rem;
+    color: var(--bg-ligth);
+}
+
+.nossa-escola p {
+    font-size: 1.5rem;
+    color: var(--bg-ligth);
+    line-height: 1.5;
+}
+
+.nossa-escola__img {
+    padding: 6rem 6rem 0rem 0rem;
+}
+
+/*======= Contatos =======*/
+
+.contatos {
+    background-color: var(--bg-ligth);
+}
+
+.contatos__title {
+    text-align: center;
+    padding: 5rem 0;
+    font-size: 2.5rem;
+}
+
+address {
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+address h3 {
+    font-size: 1.8rem;
+}
+
+/*======= Footer =======*/
+
+footer {
+    background-color: var(--bg-dark);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--bg-ligth);
+}
+
+
+
+
+
+
+

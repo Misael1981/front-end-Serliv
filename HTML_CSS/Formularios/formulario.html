@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <style>
+        html {
+            font-family: "Helvetica Neve", Arial, sans-serif;
+        }
+        div {
+            border: 1px solid black;
+            padding: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <button onclick="calcular()">Calcular</button>
+        <output id="resultado"></output>
+      </form>
+      
+      <script>
+        const output = document.querySelector('output')
+        function calcular() {
+          let num1 = document.getElementById("num1").value;
+          let num2 = document.getElementById("num2").value;
+          let resultado = Number(num1) + Number(num2);
+          
+          return output.textContent = resultado
+        }
+
+        calcular()
+        
+      </script>
+</body>
+</html>

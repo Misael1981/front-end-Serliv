@@ -1,5 +1,13 @@
-let number1 = prompt('Digite um número')
-let number2 = prompt('Digite outro número')
+let number1 = Number(prompt('Digite um número'))
+let number2 = Number(prompt('Digite outro número'))
 
-let soma = Number(number1) + Number(number2)
-alert("A soma dos números é:" + ' ' + soma)
+let divisao = number1 / number2
+let multiplicacao = number1 * number2
+let subtracao = number1 - number2
+let soma = number1 + number2
+
+alert('A divisão é:' + " " + divisao)
+alert('A multiplcação é:' + " " + multiplicacao)
+alert('A subtração é:' + " " + subtracao)
+alert('A soma é:' + " " + soma)
+

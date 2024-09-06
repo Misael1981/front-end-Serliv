@@ -43,3 +43,5 @@ As variáveis são essenciais para a lógica de programação por várias razõe
 ### Conclusão
 
 As variáveis são uma parte fundamental da lógica de programação e são essenciais para qualquer desenvolvedor. Entender como usá-las corretamente é crucial para escrever códigos eficientes e funcionais. À medida que você avança no aprendizado de programação, dominar as variáveis será uma habilidade valiosa.
+
+### [Menu Variáveis Tipos e Valores](menu_variaveis-valores.md)

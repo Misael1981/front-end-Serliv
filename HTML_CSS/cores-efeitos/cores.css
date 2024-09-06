@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, transparent, blue), url(img/image/tile.png);
+    background-attachment: fixed;
+    background-blend-mode: color;  
+}
+
+.cores {
+    width: 80%;
+    border: 8px dashed black;
+    margin: 20px auto;
+    padding: 26px;
+}
+
+.cores p {
+    margin: 0;
+}
+
+section {
+    counter-reset: contador;
+}
+
+.cores {
+    counter-increment: contador;
+}
+
+.cores::before {
+    content: "[" counter(contador) "]";
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.cores:nth-of-type(2) {
+    background-color: hsl(100deg, 100%, 40%);
+    cursor: pointer;
+}
+
+.cores:nth-of-type(2):hover {
+    background-color: hsl(100deg, 100%, 50%);
+}
+.cores:nth-of-type(3) {
+    background-image:
+    linear-gradient(to right, #f0f, #0ff),
+    radial-gradient(circle at top left, #fff, transparent);
+    background-clip: padding-box; 
+}
+
+.cores:nth-of-type(4) {
+    background-image: radial-gradient( #0ff,rgb(49, 190, 190), rgba(17, 105, 105, 0.486));
+    
+}
+
+.cores:nth-of-type(5) {
+    background-image: conic-gradient(from 90deg, red, yellow, green, blue, purple);
+    
+}
+
+.cores:nth-of-type(6) {
+    background-image: repeating-linear-gradient(to top right, #f0f 0%, #0f0 5%);
+}
+
+.cores:nth-of-type(7) {
+    background: repeating-linear-gradient(90deg, #fff, #fff 10px, #ccc 10px, #ccc 20px);
+}
+
+.cores:nth-of-type(8) {
+    background: repeating-radial-gradient(circle at 30% 30%, #f0f, #f0f 1px, transparent 1px, transparent 2px);
+    background-clip: padding-box;
+}
+
+

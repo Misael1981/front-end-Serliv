@@ -34,3 +34,5 @@ As consultas de mídia (media queries) são um mecanismo do CSS que permite apli
 - ## [Meta tag viewport](meta-tag-viewport.md)
 
 - ## [Unidades relativas em Media Queries e Acessibilidade](unidades-relativas_media-queries.md)
+
+- ## [Imagens Responsivas](imagens-responsivas/imagens-responsivas.md)

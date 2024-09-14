@@ -7,3 +7,7 @@
 - ## [Menu Cores e efeitos](cores-efeitos/menu_cores-efeitos.md)
 
 - ## [Menu Responsividade](responsividade/Introducao-menu.md)
+
+- ## [Incorporar Elementos](incorporar-elementos/menu_incorporar-elementos.md)
+
+- ## [GRID CSS](GRID-CSS/menu-introducao.md)

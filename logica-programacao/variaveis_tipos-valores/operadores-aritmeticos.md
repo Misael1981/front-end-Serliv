@@ -89,7 +89,4 @@ alert('A subtração é:' + " " + subtracao)
 alert('A soma é:' + " " + soma)
 ```
 
-
-
-
 ### [Menu Variáveis e Tipos de Valores](menu_variaveis-valores.md)

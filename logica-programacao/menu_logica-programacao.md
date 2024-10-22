@@ -11,3 +11,5 @@
 - ## [Controle de Decisão](Controle-decisao/menu_controle-decisao.md)
 
 - ## [Laços de Repetição](Lacos-Repeticao/menu_lacos-repeticao.md)
+
+- ## [Arrays e Objetos](Arrays-Objetos/menu_arrays-objetos.md)

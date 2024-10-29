@@ -12,6 +12,25 @@
     <img align="center" alt="Misael-CSS" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div></h2>
 
+<h2 align="center"> 🗂️ Desafios e Projetos</h2>
+
+<div align="center">
+
+### [Desafio Curriculo](HTML_CSS/introducao-css/README-desafio.md)
+
+</div>
+
+<div align="center">
+
+<h2> 📚 Temas abordados</h2>
+
+### [Menu HTML](HTML_CSS/readme-HTML.md)
+
+### [Menu Lógica de Programação](logica-programacao/menu_logica-programacao.md)
+
+<div align="center">
+
+
 
 <h2> 📞 Contato</h2>
 <div> 
@@ -21,6 +40,3 @@
   <a href= https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white></a>
   </div>
 
-### [Menu HTML](HTML_CSS/readme-HTML.md)
-
-### [Menu Lógica de Programação](logica-programacao/menu_logica-programacao.md)

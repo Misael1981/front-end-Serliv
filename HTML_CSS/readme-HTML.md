@@ -4,6 +4,10 @@
 
 - ## [Menu Introdução ao CSS](introducao-css/menu_introducao-CSS.md)
 
+- ## [Menu Trabalhando com Imagens](imagens/menu-imagens.md)
+
+- ## [Menu Estrutura Semântica e Posionamento](Estrutura-Semantica-Posicionamento/menu.md)
+
 - ## [Menu Cores e efeitos](cores-efeitos/menu_cores-efeitos.md)
 
 - ## [Menu Responsividade](responsividade/Introducao-menu.md)

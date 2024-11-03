@@ -18,6 +18,8 @@
 
 ### [Desafio Curriculo](HTML_CSS/introducao-css/README-desafio.md)
 
+### [Projeto 01 "Cursos SERLIV"](HTML_CSS/Estrutura-Semantica-Posicionamento/Projeto-01/README_prjeto-01.md)
+
 </div>
 
 <div align="center">

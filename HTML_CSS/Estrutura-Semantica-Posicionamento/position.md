@@ -4,34 +4,40 @@
 
 A propriedade `position` em CSS controla o posicionamento de um elemento em relação aos seus pais, irmãos ou à janela do navegador. Ela é fundamental para criar layouts complexos e efeitos visuais personalizados.
 
-<img src="../posicionamento/img/img-01.png">
-
 ### Os valores da propriedade `position`
 
 A propriedade `position` possui cinco valores principais:
 
-- 1.**static**: (padrão)
+### 1. static: (padrão)
 
-  - O elemento está posicionado de acordo com o fluxo normal do documento.
-  - As propriedades `top`,`right` ,`bottom` e `left` não têm efeito.  
+<img src="img/position-01.png">
 
-- 2.**relative**:
+- O elemento está posicionado de acordo com o fluxo normal do documento.
+- As propriedades `top`,`right` ,`bottom` e `left` não têm efeito.  
 
-  - O elemento está posicionado de acordo com o fluxo normal, mas você pode ajustá-lo usando as propriedades `top`,`right` ,`bottom` e  `left`.  
-  - O elemento mantém seu espaço original no layout, ou seja, outros elementos não ocupam seu lugar.
+### 2. relative:
 
-- 3.**absolute**:
+<img src="img/position-02.png">
 
-  - O elemento é removido do fluxo normal do documento.
-  - É posicionado em relação ao primeiro ancestral posicionado (pai, avô, etc. ) com um valor de `position` diferente de `static` ou `relative`, ou em relação à janela do navegador se não houver nenhum ancestral posicionado.
+- O elemento está posicionado de acordo com o fluxo normal, mas você pode ajustá-lo usando as propriedades `top`,`right` ,`bottom` e  `left`.  
+- O elemento mantém seu espaço original no layout, ou seja, outros elementos não ocupam seu lugar.
 
-- 4.**fixed**:
+### 3. absolute:
 
-  - Da mesma forma que o `absolute`, mas o elemento é posicionado em relação à janela do navegador e permanece fixo enquanto você rola a página.
+<img src="img/position-03.png">
 
-- 5.**sticky**:
+- O elemento é removido do fluxo normal do documento.
+- É posicionado em relação ao primeiro ancestral posicionado (pai, avô, etc. ) com um valor de `position` diferente de `static` ou `relative`, ou em relação à janela do navegador se não houver nenhum ancestral posicionado.
 
-  - Uma combinação de `relative` e `fixed`. O elemento age como `relative` até que alcance um determinado ponto na viewport, a partir daí ele se como `fixed`.
+### 4. fixed:
+
+<img src="img/position-04.png">
+
+- Da mesma forma que o `absolute`, mas o elemento é posicionado em relação à janela do navegador e permanece fixo enquanto você rola a página.
+
+### 5. sticky:
+
+- Uma combinação de `relative` e `fixed`. O elemento age como `relative` até que alcance um determinado ponto na viewport, a partir daí ele se como `fixed`.
 
 ### Exemplos práticos
 
@@ -104,4 +110,4 @@ O cabeçalho será fixado no topo da página quando você rolar para baixo, mas 
 - **Overflow**: A propriedade `overflow` controla o que acontece quando o conteúdo de um elemento ultrapassa suas dimensões.
 - **Combinando posições**: Você pode combinar valores diferentes `position` para criar layouts complexos.
 
-### [Voltar ao menu README](../README.md)
+### [Menu Estrutura Semântica e Posicionamento](menu.md)

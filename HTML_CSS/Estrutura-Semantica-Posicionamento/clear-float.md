@@ -6,9 +6,9 @@
 
 - **Definição**: A propriedade `float`permite que um elemento seja retirado do fluxo normal do documento e posicionado à esquerda ou à direita do seu contêiner, permitindo que outros elementos de texto ou inline fluam ao seu redor.
 
-- **Como funciona**: Ao aplicar `float: left` ou `float: righ` ta um elemento, ele "flutua" para a borda especificada e os elementos subsequentes se ajustam ao seu redor.
+- **Como funciona**: Ao aplicar `float: left` ou `float: righ` em um elemento, ele "flutua" para a borda especificada e os elementos subsequentes se ajustam ao seu redor.
 
-- ´Usos comuns`:
+- **Usos comuns**:
 
   - Criar layouts com texto envolvendo imagens.
   - Alinhar elementos lado a lado.
@@ -18,7 +18,7 @@
 
 - **Definição**: A propriedade `clear` controla como um elemento se posiciona em relação aos elementos flutuantes que o precedem.
 
-- **Como funciona**: Ao aplicar `clear: left`, `clear: right`, `clear: both` ou a um elemento, ele ficará posicionado abaixo de todos os elementos flutuantes à esquerda, à direita ou a ambos os lados, respectivamente. 
+- **Como funciona**: Ao aplicar `clear: left`, `clear: right`, `clear: both` em um elemento, ele ficará posicionado abaixo de todos os elementos flutuantes à esquerda, à direita ou a ambos os lados, respectivamente. 
 
 - **Usos comuns**:
 
@@ -43,4 +43,4 @@ Embora Flexbox e Grid sejam as ferramentas preferidas para a maioria dos layouts
 
 Float e clear são ferramentas importantes para entender a história do CSS e como os layouts foram construídos no passado. Embora tenham sido amplamente utilizados, o surgimento do Flexbox e Grid tornou-os menos necessários para a maioria dos casos. No entanto, compreender seus conceitos básicos ainda pode ser útil para solucionar problemas de layout e para trabalhar com código legado.
 
-### [Voltar ao README principal](../README.md)
+### [Menu Estrutura Semântica e Posicionamento](menu.md)

@@ -6,11 +6,32 @@ Determina a ordem em que os elementos aparecerão.
 
 Por padrão os flex items são dispostos na tela na ordem do código. Mas a propriedade `order` controla a ordem em que aparecerão no container.
 
+- O valor padrão e "0";
+
+### Exemplo:
+
 ```
-.flex-item {
-    order: <número>; /* o valor padrão é 0 */
+.flex-container .div2 {
+    background-color: violet;
+    order: 1;
 }
 ```
+
+<img src="img/order-01.png">
+
+- Como o padrão é **0** e o valor do elemento do foi estipulado pra **1**, ele foi para o final do container.
+
+Caso o elemento seja estipulado com `order` de valor **negativo** ele irá para o início do container.
+
+```
+.flex-container .div2 {
+    background-color: violet;
+    order: -1;
+}
+```
+
+<img src="img/order-02.png">
+
 
 # align-self
 
@@ -26,16 +47,13 @@ Por favor veja a explicação da propriedade *align-items* para entender quais s
 }
 ```
 
-# flex
-
-Esta é a propriedade **shorthand** para `flex-grow`, `flex-shrink` e `flex-basis`, combinadas. O segundo e terceiro parâmetros (`flex-shrink` e `flex-basis`) são opcionais. O padrão é `0 1 auto`, mas se você definir com apenas um número, é equivalente a `0 1`.
+### Exemplo:
 
 ```
-.item {
-    flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+.flex-container .div2 {
+    background-color: violet;
+    align-self: self-end;
 }
 ```
 
-**É recomendado que você utilize esta propriedade shorthand** ao invés de definir cada uma das propriedades em separado. O shorthand define os outros valores de forma inteligente.
-
-### [Voltar ao README principal](../README.md)
+### [Menu Flexbox](menu-flexbox.md)

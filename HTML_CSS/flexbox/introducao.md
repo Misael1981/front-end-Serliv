@@ -75,7 +75,7 @@ Esta propriedade define um *flex container*; inline ou block dependendo dos valo
 
 Note que a propriedade de CSS `columns` não tem efeito em um *flex container*.
 
-### [Voltar ao README principal](../README.md)
+### [Menu Flexbox](menu-flexbox.md)
 
 ### [Fonte: Artigo de Juliana Amoasei para a ALURA](https://www.alura.com.br/artigos/css-guia-do-flexbox)
 

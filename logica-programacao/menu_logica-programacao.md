@@ -13,3 +13,5 @@
 - ## [Laços de Repetição](Lacos-Repeticao/menu_lacos-repeticao.md)
 
 - ## [Arrays e Objetos](Arrays-Objetos/menu_arrays-objetos.md)
+
+- ## [DOM](DOM/menu-dom.md)

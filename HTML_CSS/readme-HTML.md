@@ -10,6 +10,8 @@
 
 - ## [Menu Flexbox](flexbox/menu-flexbox.md)
 
+- ## [Projeto 02](Projeto-02_lista-contatos/porjeto02.md)
+
 
 
 

@@ -15,10 +15,67 @@
         h1 {
             text-align: center;
         }
+        table {
+            border: 2px solid #ccc;
+            margin: 0 auto;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .arraysObjetos {
+            border: 2px solid #ccc;
+            margin: 20px auto;
+            text-align: center;
+            max-width: 500px;
+        }
+        .arraysObjetos li {
+            list-style: none;
+            padding: 2.5px;
+        }
     </style>
 </head>
 <body>
-    <h1>Estruturas Complexas</h1>
-    <ul></ul>
+    <section>
+        <h1>Estruturas Complexas</h1>
+        <ul></ul>
+    </section>
+
+    <section class="tabela">
+        <h1>Tabela de preços</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade em estoque</th>
+                </tr>
+            </thead>
+
+            <tbody id="tabelaProdutos">
+                <tr>
+                    <td>Caneta</td>
+                    <td>R$ 2,00</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="arraysObjetos">
+        <h1>Informações de um aluno</h1>
+
+        <div id="output"></div>
+    </section>
+
+    <section class="arraysObjetos">
+        <ul id="listaAlunos"></ul>
+    </section>
+
+    <section class="arraysObjetos">
+        <ul id="ulAlunosdesafio"></ul>
+    </section>
 </body>
 </html>

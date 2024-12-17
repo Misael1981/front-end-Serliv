@@ -15,3 +15,5 @@
 - ## [Arrays e Objetos](Arrays-Objetos/menu_arrays-objetos.md)
 
 - ## [DOM](DOM/menu-dom.md)
+
+- ## [Funções](Funcoes/menu-funcoes.md)

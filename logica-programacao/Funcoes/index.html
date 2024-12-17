@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== Js ===== -->
+     <script src="app.js" defer></script>
+    <title>Funções</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: rgba(0, 0, 0, .8);
+            color: #ccc;
+        }
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .section {
+            width: 80vw;
+            max-width: 500px;
+            margin: 0 auto 10px;
+            border: 2px solid #ccc;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .section input, button {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Funções</h1>
+
+    <section class="calcularTabuada section">
+        <h2>Calcutar Tabuada</h2>
+        <input type="number" id="number">
+        <div>
+            <button onclick="calcularTabuada()">Mostrar Tabuada</button>
+            <button onclick="limparTabuada()">Limpar Tabuada</button>
+        </div>
+        <div id="output"></div>
+    </section>
+
+    <dection class="areaTriangulo section">
+        <h2>Calcular área do triângulo</h2>
+
+        <label>Base
+            <input type="number" id="base">
+        </label>
+        <label>Altura
+            <input type="number" id="altura">
+        </label>
+        <button onclick="calcucarArea()">Calcular área</button>
+        <div id="outputArea"></div>
+    </dection>
+
+    <section class="section">
+        <h2>Calcular área do círculo</h2>
+
+        <label>Raio
+            <input type="number" id="raio">
+        </label>
+        <button onclick="calcucarAreaCirculo()">Calcular área</button>
+        <div id="outputRaio"></div>
+    </section>
+</body>
+</html>

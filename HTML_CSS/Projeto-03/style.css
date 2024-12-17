@@ -81,6 +81,7 @@ h1 {
     border-bottom: 2px solid #cbe300;
     padding-bottom: 8px;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 .plan__price {
@@ -114,6 +115,7 @@ h1 {
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .plan__btn:hover {

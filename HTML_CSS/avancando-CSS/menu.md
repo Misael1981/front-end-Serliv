@@ -17,3 +17,13 @@
 - ### [A função calc() em CSS: Cálculos Diretamente nas Suas Estilizações](funcaocalc.md)
 
 - ### [Variáveis ​​CSS (Custom Properties)](variaveisCSS.md)
+
+- ### [Box-Shadow no CSS: Adicionando profundidade e realismo aos seus elementos](box-shadow.md)
+
+- ### [text-shadown - Adicionando profundidade e estilo ao seu texto](text-shadow.md)
+
+- ### [Outline CSS: Um contorno destacado](outline.md)
+
+- ### [Font-face: Usando Fontes Personalizadas no CSS](font-face.md)
+
+- ### [Propriedade transition em CSS](transition.md)

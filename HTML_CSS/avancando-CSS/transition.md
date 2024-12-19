@@ -47,4 +47,4 @@ button {
 
 **Em resumo** , a propriedade `transition` é uma ferramenta poderosa para criar efeitos visuais interessantes e melhorar a experiência do usuário em seus designs web.
 
-### [Voltar ao menu README](../README.md)
+### [Voltar ao Menu Avançando em CSS](menu.md)

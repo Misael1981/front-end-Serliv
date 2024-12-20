@@ -1,0 +1,129 @@
+@import url('./global.css');
+
+.header__top {
+    background-color: var(--bg-top-header);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__title h1 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-titulo-menu);
+    font-size: var(--font-size-xl);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap-l);
+    list-style-type: none;
+}
+
+.header__navbar-item {
+    text-decoration: none;
+    color: var(--cor-texto-menu);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color .5s;
+}
+
+.header__navbar-item:hover {
+    color: var(--cor-titulo-menu);
+}
+
+.header__banner {
+    height: 70vh;
+    background-image: url('../img/topo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* ===== ABOUT ===== */
+
+.about {
+    padding: var(--padding-xxl);
+}
+
+.about__title {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: var(--font-size-xl);
+}
+
+.about__description {
+    text-align: center;
+    padding: var(--padding-xl) 0;
+    line-height: 2;
+    letter-spacing: .75px;
+}
+
+.about__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap-l);
+}
+
+.about__cards-card {
+    flex-grow: 1;
+}
+
+.about__cards-card img {
+    width: 100%;
+}
+
+.card-description {
+    text-align: center;
+    padding: var(--padding-m);
+}
+
+.card-description h3 {
+    text-transform: uppercase;
+}
+
+.card-description p {
+    padding: var(--padding-s);
+}
+
+/* ===== DETAILS ===== */
+
+.details {
+    background-color: var(--bg-detalhes);
+    height: 80vh;
+    background-image: url('../img/bg_detalhe.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: var(--cor-titulo-menu);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details h2 {
+    font-size: var(--font-size-xxl);
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    padding: 0 var(--padding-xl);
+    letter-spacing: 3px;
+}
+
+.details p {
+    padding: 2rem 15rem 0 3rem;
+    font-size: var(--font-size-l);
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background-color: var(--bg-footer);
+}
+
+.footer p {
+    color: var(--cor-texto-menu);
+    text-align: center;
+    padding: var(--padding-m);
+    font-size: var(--font-size-l);
+}
+

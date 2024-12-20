@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Viaoda+Libre&display=swap');
+
+:root {
+    --padding-xs: 0.5rem;
+    --padding-s: 1rem;
+    --padding-m: 1.5rem;
+    --padding-l: 2rem;
+    --padding-xl: 3.5rem;
+    --padding-xxl: 5rem;
+
+    --font-size-xs: 0.75rem;
+    --font-size-s: 1rem;
+    --font-size-m: 1.25rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 3rem;
+    --font-size-xxl: 4.75rem;
+
+    --margin-xs: 0.5rem;
+    --margin-s: 1rem;
+    --margin-m: 1.5rem;
+    --margin-l: 2rem;
+    --margin-xl: 3.5rem;
+    --margin-xxl: 5rem;
+
+    --gap-xs: 0.5rem;
+    --gap-s: 1rem;
+    --gap-m: 1.5rem;
+    --gap-l: 2rem;
+    --gap-xl: 3.5rem;
+    --gap-xxl: 5rem;
+
+    --max-width-block: 75rem;
+    
+    --fonte-texto: "Roboto", serif;
+    --fonte-titulo: "Viaoda Libre", serif;
+
+    --bg-top-header: #162028;
+    --bg-detalhes:  #003d52;
+    --bg-footer:  #0b171f;
+
+    --cor-textos: #555;
+    --cor-texto-menu: #425564;
+    --cor-texto-footer: #0b171f;
+    --cor-titulo-menu: #fffafa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--fonte-texto);
+    color: var(--cor-textos);
+}

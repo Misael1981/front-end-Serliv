@@ -17,3 +17,5 @@
 - ## [DOM](DOM/menu-dom.md)
 
 - ## [Funções](Funcoes/menu-funcoes.md)
+
+- ## [Tratamento de Exceções](Tratamento-Excecoes/menu.md)

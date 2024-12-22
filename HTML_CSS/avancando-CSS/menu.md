@@ -27,3 +27,5 @@
 - ### [Font-face: Usando Fontes Personalizadas no CSS](font-face.md)
 
 - ### [Propriedade transition em CSS](transition.md)
+
+- ### [Projeto Moda Ora](./Projeto_Moda-Ora/README.md)

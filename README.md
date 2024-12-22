@@ -22,6 +22,10 @@
 
 ### [Projeto 02 Listas de Contato](HTML_CSS/Projeto-02_lista-contatos/porjeto02.md)
 
+### [Projeto Moda Ora](HTML_CSS/Avancando-CSS/Projeto_Moda-Ora/README.md)
+
+### [Projeto Aprenser](HTML_CSS/Avancando-CSS/Projeto_Moda-Ora/README.md)
+
 </div>
 
 <div align="center">

@@ -36,6 +36,8 @@
 
 ### [Menu Lógica de Programação](logica-programacao/menu_logica-programacao.md)
 
+### [Menu JavaScript](JavaScript/menu-javascript.md)
+
 <div align="center">
 
 

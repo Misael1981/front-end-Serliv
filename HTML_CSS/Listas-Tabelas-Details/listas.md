@@ -39,19 +39,21 @@ As listas HTML são elementos essenciais para apresentar informações de forma 
 As listas aninhadas permitem criar estruturas hierárquicas, inserindo uma lista dentro de outra. Isso é útil para organizar informações complexas de forma mais visual e intuitiva. Por exemplo, você pode criar uma lista de tarefas com subtarefas.
 
 ```
+<h2>Listas Aninhadas</h2>
+
 <ul>
-  <li>Tarefa 1</li>
-  <li>Tarefa 2
-    <ul>
-      <li>Subtarefa 2.1</li>
-      <li>Subtarefa 2.2</li>
-    </ul>
-  </li>
-  <li>Tarefa 3</li>
+    <li>Item 1</li>
+    <li>Item 2
+        <ul>
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+        </ul>
+    </li>
+    <li>Item 3</li>
 </ul>
 ```
 
-<img src="img/listas-aninhadas.jpg">
+<img src="img/çlistas-aninhadas.PNG">
 
 ## 3. Listas de Definição (DL)
 
@@ -61,14 +63,17 @@ As listas aninhadas permitem criar estruturas hierárquicas, inserindo uma lista
 - **Exemplo**:
 
 ```
+<h2>Listas de Definição</h2>
+
 <dl>
-  <dt>HTML</dt>
-  <dd>Linguagem de marcação para criação de páginas web.</dd>
-  <dt>CSS</dt>
-  <dd>Linguagem de estilo para design de páginas web.</dd>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação de hipertexto</dd>
+
+    <dt>CSS</dt>
+    <dd>Linguagem para criação de folhas de estilo em cascata</dd>
 </dl>
 ```
-<img src="img/listas-definicao.jpg">
+<img src="img/listas-definicao.PNG">
 
 - `<dl>`: Defina uma lista de descrição.
   - Envolve um grupo de termos (definidos por `<dt>`) e suas normas correspondentes (definidas por `<dd>`).
@@ -80,5 +85,5 @@ As listas aninhadas permitem criar estruturas hierárquicas, inserindo uma lista
 - `<dd>`: Defina uma descrição de um termo em uma lista de descrição.
   - Deve ser usado dentro de um elemento `<dl>`para fornecer a descrição do termo definido pelo elemento `<dt>`anterior.
 
-### [Voltar ao README principal](../README.md)
+### [Menu - Listas, Tabelas, Details e popover](menu.md)
 

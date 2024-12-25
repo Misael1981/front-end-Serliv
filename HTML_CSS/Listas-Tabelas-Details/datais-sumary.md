@@ -25,10 +25,19 @@ O conteúdo do elemento `<summary>` pode ser qualquer conteúdo de cabeçalho, t
 </details>
 ```
 
+
+<div display="block">
+
+<img src="./img/detais-sumary-01.PNG">
+<img src="./img/detais-sumary-02.PNG">
+
+
+</div>
+
 - O ícone de seta segue a cor da fonte;
 
 - atributo `open`: Atributo booleano, caso seja incorpado fara com que os elementos estajam abertos já na primeira visualização do usuário
 
 Esse código criará um bloco de conteúdo com o título "Clique para ver mais detalhes". Inicialmente, o conteúdo abaixo do `<summary>`estará oculto. Ao clicar no título, o conteúdo será exibido.
 
-### [Voltar ao Readme principal](../README.md)
+### [Menu - Listas, Tabelas, Details e popover](menu.md)

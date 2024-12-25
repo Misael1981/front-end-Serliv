@@ -3,30 +3,23 @@
 **Tabelas HTML** são elementos utilizados para apresentar dados em formato tabular, ou seja, em linhas e colunas. Eles são ideais para organizar informações de forma clara e concisa, facilitando a leitura e comparação de dados.
 
 ### As tags básicas das tabelas
-**
+
+<img src="./img/tabelas.PNG">
+
 - `<table>`: Define uma tabela em si. É uma tag pai de todas as outras tags relacionadas às tabelas.**
 - **`<tr>` table row(linha)**: Define uma linha dentro da tabela.
 - **`<td>` table data(coluna)**: Define uma célula dentro de uma linha. Cada célula contém um dado específico.
 
 ### Exemplo básico:
 
-```
-<table>
-  <tr>
-    <td>Célula 1</td>
-    <td>Célula 2</td>
-  </tr>
-  <tr>
-    <td>Célula 3</td>
-    <td>Célula 4</td>
-  </tr>
-</table>
-```
+<img src="./img/tabelas-01.PNG">
 
 ## Atributos colspan e rowspan
 
 - **colspan**: Permite que uma célula ocupe mais de uma coluna.
 - **rowspan**: Permite que uma célula ocupe mais de uma linha.
+
+<img src="./img/tabelas-02.PNG">
 
 ### Exemplo:
 
@@ -52,6 +45,9 @@
 - `<thead>`: Agrupa as linhas do cabeçalho da tabela.
 - `<tbody>`: Agrupa as linhas do corpo da tabela.
 - `<tfoot>`: Agrupa as linhas de rodapé da tabela.
+
+<img src="./img/tabelas-03.PNG">
+<img src="./img/tabelas-04.PNG">
 
 ### Exemplo:
 
@@ -93,62 +89,55 @@
 HTML
 
 <table>
-        <caption>Tabela de preço de cursos</caption>
+    <caption>Tabela de preços de cursos</caption>
 
-        <thead>
-          <tr>
+    <thead>
+        <tr>
             <th>Área</th>
-            <th>Cursos</th>
+            <th>Curso</th>
             <th>Investimento</th>
-          </tr>
-        </thead>
+        </tr>
+    </thead>
 
-        <tbody>
-          <tr>
+    <tbody>
+        <tr>
             <td rowspan="3">Desing</td>
-            <td>InDesign</td>
+            <td>InDesing</td>
             <td>R$ 1.000,00</td>
-          </tr>
-
-          <tr>
+        </tr>
+        <tr>
             <td>Photoshop</td>
             <td>R$ 1.000,00</td>
-          </tr>
-
-          <tr>
+        </tr>
+        <tr>
             <td>Ilustrator</td>
             <td>R$ 1.000,00</td>
-          </tr>
-
-          <tr>
+        </tr>
+        <tr>
             <td rowspan="4">Development</td>
             <td>HTML</td>
             <td>R$ 1.000,00</td>
-          </tr>
-
-          <tr>
+        </tr>
+        <tr>
             <td>CSS</td>
             <td>R$ 1.000,00</td>
-          </tr>
-
-          <tr>
-            <td>JavaScrpt</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
             <td>R$ 1.000,00</td>
-          </tr>
-
-          <tr>
+        </tr>
+        <tr>
             <td>PHP</td>
             <td>R$ 1.000,00</td>
-          </tr>
-        </tbody>
-
-        <tfoot>
-          <tr>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
             <td colspan="3">
-              Valores sujetos a alterações sem prévio aviso
+                Valores sujeitos a alteração sem prévi aviso 
             </td>
-          </tr>
-        </tfoot>
+        </tr>
+    </tfoot>
 </table>
 ```
 
@@ -192,6 +181,8 @@ Essa propriedade CSS controla como as bordas das células da tabela são renderi
 - **separado**: Cada célula tem sua própria borda.
 - **colapso**: As bordas das células adjacentes são mescladas em uma única borda.
 
+<img src="./img/tabelas-05.PNG">
+
 ### Exemplo:
 
 ```
@@ -200,4 +191,4 @@ table {
 }
 ```
 
-### [Voltar ao Readme principal](../README.md)
+### [Menu - Listas, Tabelas, Details e popover](menu.md)

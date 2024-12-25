@@ -14,6 +14,8 @@
 
 - ## [Avançando em CSS](Avancando-CSS/menu.md)
 
+- ## [Listas, Tabelas, Details e popover](Listas-Tabelas-Details/menu.md)
+
 
 
 

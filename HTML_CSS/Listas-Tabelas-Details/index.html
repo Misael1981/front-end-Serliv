@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Tabelas</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, .8);
+            color: #fff;
+        }
+        h1 {
+            text-align: center;
+        }
+        .exemplo {
+            width: 400px;
+            margin: 1rem auto;
+            border: 1px solid #fff;
+            padding: 1rem;
+        }
+        h2 {
+            padding-bottom: 1rem;
+        }
+        .exemplo h2, ul {
+            width: 50%;
+            margin: 0 auto;
+        }
+        div[popover]:popover-open {
+            /* Estilos para o popover quando está aberto */
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            position: absolute;
+            z-index: 1;
+        }
+        :popover-open {
+            width: 300px;
+            padding: 0 10px;
+            border-radius: 10px;
+        }
+        ::backdrop {
+            background-color: rgba(255, 0, 0, .8);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Listas e Tabelas</h1>
+
+    <div class="exemplo">
+        <h2>Listas Aninhadas</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2
+                <ul>
+                    <li>Item 2.1</li>
+                    <li>Item 2.2</li>
+                </ul>
+            </li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+
+    <div class="exemplo">
+        <h2>Listas de Definição</h2>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação de hipertexto</dd>
+
+            <dt>CSS</dt>
+            <dd>Linguagem para criação de folhas de estilo em cascata</dd>
+        </dl>
+    </div>
+
+    <div class="exemplo">
+        <h2>Detais e Sumary</h2>
+
+        <details>
+            <summary>Clique para ver mais detalhes</summary>
+            <p>Este é o conteúdo oculto inicialmente.</p>
+            <p>Mais informações podem ser adicionadas aqui.</p>
+        </details>
+    </div>
+
+    <div class="exemplo">
+        <h2>Atributo popover</h2>
+
+        <button popover="auto">Mostrar popover</button>
+        <div popover>
+        <p>Este é o conteúdo do popover.</p>
+        </div>
+    </div>
+
+    <div class="exemplo">
+        <h2>Atributo popover</h2>
+
+        <button popovertarget="my-popover">toogle popover</button>
+        <div id="my-popover" popover>Este texto é aberto ao clicar no botão</div>
+    </div>
+
+    <div class="exemplo">
+        <h2>Atributo popover</h2>
+
+        <button popovertarget="my-popover4" popovertargetaction="show">toogle popover</button>
+        <button popovertarget="my-popover4" popovertargetaction="hide">toogle popover</button>
+        <div id="my-popover4" popover="manual">Este texto é aberto ao clicar no botão</div>
+    </div>
+
+    <div class="exemplo">
+        <h2>Atributo popover</h2>
+        <div class="popover-container">
+
+            <button popovertarget="my-popover5">Toogle popover</button>
+            <button popovertarget="my-popover5">Toogle popover</button>
+
+            <div id="my-popover5" popover>Texto de ajudo do popover</div>
+        </div>
+    </div>
+</body>
+</html>

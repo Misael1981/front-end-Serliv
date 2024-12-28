@@ -6,35 +6,89 @@
     <title>Formulários</title>
 
     <style>
-        html {
-            font-family: "Helvetica Neve", Arial, sans-serif;
-        }
-        div {
-            border: 1px solid black;
-            padding: 10px 5px;
-        }
+      html {
+        background-color: #95a5a6;
+        font-family: "Helvetica Neue", sans-serif;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      form {
+        width: 350px;
+        background-color: #ecf0f1;
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px #333;
+        padding: 1.5rem;
+      }
+      fieldset {
+        border: none;
+        padding: 0;
+      }
+      label {
+        margin-bottom: .25rem;
+      }
+      input {
+        padding: .75rem;
+        border-radius: 5px;
+        margin-bottom: 1.5rem;
+        border: 1px solid #bbb;
+        font-size: 1rem;
+      }
+      input, label {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      legend {
+        padding: 1rem;
+        text-align: center;
+        font-weight: bold;
+        color: #454e4f;
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+      }
+      .btn {
+        width: fit-content;
+        margin-left: auto;
+        background-color: rgb(43, 43, 128);
+        color: white;
+        cursor: pointer;
+      }
+      .actions {
+        display: flex;
+        gap: 2rem;
+      }
+      .btn2 {
+        background-color: rgb(43, 43, 128);
+        color: white;
+        cursor: pointer;
+      }
+      .btn__apagar {
+        background-color: rgb(128, 43, 56);
+      }
     </style>
 </head>
 <body>
-    <form>
-        <input type="number" id="num1">
-        <input type="number" id="num2">
-        <button onclick="calcular()">Calcular</button>
-        <output id="resultado"></output>
-      </form>
-      
-      <script>
-        const output = document.querySelector('output')
-        function calcular() {
-          let num1 = document.getElementById("num1").value;
-          let num2 = document.getElementById("num2").value;
-          let resultado = Number(num1) + Number(num2);
-          
-          return output.textContent = resultado
-        }
+  <form action="#" method="get">
+      <fieldset>
+          <legend>Entre com seus dados de acesso</legend>
 
-        calcular()
-        
-      </script>
+          <label for="user">Usuário</label>
+          <input type="text" id="user" required autofocus>
+
+          <label for="pass">Senha</label>
+          <input type="password" id="pass" required>
+
+          <div class="actions">
+            <input type="reset" value="Apagar" class="btn2 btn__apagar">
+            <input type="submit" value="Entrar" class="btn2">
+          </div>
+      </fieldset>
+  </form>
 </body>
 </html>

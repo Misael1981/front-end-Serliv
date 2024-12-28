@@ -16,9 +16,12 @@
         .formularios {
             border: 1px solid #fff;
             width: 400px;
-            margin: 0 auto;
+            margin: 1rem auto;
             text-align: center;
             padding: .5rem 1rem 1rem;
+        }
+        input, button {
+            accent-color: #4CAF50; /* Verde */
         }
     </style>
 </head>
@@ -28,10 +31,34 @@
     <section class="formularios">
         <h2>Formulários de busca</h2>
 
-        <form action="https://www.google.com/search" method="get">
+        <form action="https://www.google.com/search" method="get" target="_blank">
             <input type="text" name="q">
             <input type="submit" value="OK">
         </form>
+    </section>
+
+    <section class="formularios">
+        <h2>Formulário de Login</h2>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Login</legend>
+
+                <label for="user">Usuário</label>
+                <input type="text" id="user" required autofocus>
+
+                <label for="pass">Senha</label>
+                <input type="password" id="pass" required>
+
+                <input type="submit" value="Entrar">
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="formularios">
+        <input type="checkbox">
+        <input type="radio">
+        <button>Enviar</button>
     </section>
 </body>
 </html>

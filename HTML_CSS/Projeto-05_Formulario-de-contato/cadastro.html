@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== CSS ===== -->
+     <link rel="stylesheet" href="./desafio.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form autocomplete="off" class="cadastro">
+        <fieldset class="fieldset">
+            <legend>Cadastre-se</legend>
+            <label for="name">
+                usuário
+                <input type="text" name="name" id="name" required>
+            </label>
+            <label for="email">
+                email
+                <input type="email" name="email" id="email" required>
+            </label>
+            <label for="password">
+                senha
+                <input type="password" name="password" id="password">
+            </label>
+            <div class="cadastro__btn">
+                <input type="submit" value="cadastre-se" class="btn">
+                <p>Já possui cadastro? <a href="./login.html">Faça login</a></p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

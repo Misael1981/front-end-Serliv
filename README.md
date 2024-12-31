@@ -18,13 +18,15 @@
 
 ### [Desafio Curriculo](HTML_CSS/introducao-css/README-desafio.md)
 
-### [Projeto 01 "Cursos SERLIV"](HTML_CSS/Estrutura-Semantica-Posicionamento/Projeto-01/README_prjeto-01.md)
+### [Projeto 01 - "Cursos SERLIV"](HTML_CSS/Estrutura-Semantica-Posicionamento/Projeto-01/README_prjeto-01.md)
 
-### [Projeto 02 Listas de Contato](HTML_CSS/Projeto-02_lista-contatos/porjeto02.md)
+### [Projeto 02 - Listas de Contato](HTML_CSS/Projeto-02_lista-contatos/porjeto02.md)
 
-### [Projeto Moda Ora](HTML_CSS/Avancando-CSS/Projeto_Moda-Ora/README.md)
+### [Projeto - Moda Ora](HTML_CSS/Avancando-CSS/Projeto_Moda-Ora/README.md)
 
-### [Projeto Aprenser](HTML_CSS/Avancando-CSS/Projeto_Moda-Ora/README.md)
+### [Projeto - Aprenser](HTML_CSS/Avancando-CSS/Projeto_Moda-Ora/README.md)
+
+### [Projeto - Formulários de Contato](HTML_CSS/Projeto-05_Formulario-de-contato/README.md)
 
 </div>
 

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --color-blue: #3a68b7;
+    --bg-frame: #fffdfd;
+    --color-black: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+}
+
+.cadastro, .login {
+    background-color: var(--bg-frame);
+    padding: 1rem;
+    width: 550px;
+    max-width: 90%;
+    box-shadow: -10px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.fieldset {
+    border: none;
+    padding: 1rem;
+}
+
+legend {
+    font-size: 2.5rem;
+    padding: 1rem 0 0;
+    color: var(--color-blue);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: var(--color-black);
+}
+
+input {
+    border-color: transparent;
+    border-bottom: 1px solid var(--color-blue);
+    padding: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    outline: 0;
+}
+
+input:focus {
+    outline: 2px solid var(--color-blue);
+    border-radius: 5px;
+}
+
+.cadastro__btn,
+.login__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cadastro__btn .btn {
+    background-color: var(--color-blue);
+    color: var(--bg-frame);
+    padding: .9rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.cadastro__btn p {
+    color: var(--color-black);
+}
+
+.login__btn input {
+    padding: .8rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    color: var(--color-blue);
+    background-color: var(--bg-frame);
+}
+
+.btns .active {
+    background-color: var(--color-blue);
+    color: var(--bg-frame);
+}

@@ -11,3 +11,5 @@
 - ### [A Propriedade arguments em Funções JavaScript](arguments.md)
 
 - ### [Funções - Objetos de Primeira Classe](objetos-primeira-classe.md)
+
+- ### [Funções de Callback em JavaScript](./funcoes-callback.md)

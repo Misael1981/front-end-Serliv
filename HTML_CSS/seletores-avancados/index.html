@@ -3,24 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        ul {
-            border: 2px solid blueviolet;
-            padding: 10px;
-            list-style: none;
-            width: 50%;
-            background-color: white;
-        }
-        li:nth-child(3n - 2) {
-            background-color: black;
-            color: white;
-        }
-        
-    </style>
+    <!-- ===== CSS ===== -->
+     <link rel="stylesheet" href="style.css">
+    <title>Seletores Avançados</title>
 </head>
 <body>
-    
+    <section>
+        <h2>Seletores Compostos</h2>
+        <p>parágrafo <a href="#"> link falso em <b>negrito</b></a></p>
+        <article>
+            <p>Parágrafo antes do título com <b>negrito</b></p>
+            <h3>Título</h3>
+            <p>parágrafo <a href="#"> link falso em <b>negrito</b></a></p>
+            <p class="destaque">parágrafo <a href="#"> link falso em <b>negrito</b></a></p>
+            <p>parágrafo <a href="#"> link falso em <b>negrito</b></a></p>
+        </article>
+        <p>parágrafo <a href="#"> link falso em <b>negrito</b></a></p>
+    </section>
+
+    <section>
+        <h2>Seletores de Atributo</h2>
+        <ul>
+            <li><a href="#">Link Falso</a></li>
+            <li><a href="#" class="link-ok">Link Falso</a></li>
+            <li><a href="https://serliv.com/" target="_blank">Link Externo</a></li>
+            <li><a href="pasta/arquivo.pdf">Link para um PDF</a></li>
+            <li><a href="./seletores-compostos.md">Link Interno</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Pseudo-classes de Parentesco</h2>
+
+        <div>
+            <p>Primeiro Parágrafo</p>
+            <p>Segundo Parágrafo</p>
+            <p>Terceiro Parágrafo</p>
+            <p>Quarto Parágrafo</p>
+            <p>Quinto Parágrafo</p>
+        </div>
+        <hr>
+        <div>
+            <p>Primeiro Parágrafo</p>
+            <p>Segundo Parágrafo</p>
+            <p>Terceiro Parágrafo</p>
+            <p>Quarto Parágrafo</p>
+            <p>Quinto Parágrafo</p>
+        </div>
+
+        <ul>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+            <li>Item de Lista</li>
+        </ul>
+    </section>
 </body>
 </html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Pseudo-classes</title>
+    <style>
+        section {
+            border: 5px solid black;
+            width: 450px;
+            max-width: 90%;
+            margin: 20% auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        ol li {
+            padding: 1rem 5rem;
+        }
+        /* ol :first-child {
+            background-color: rgba(138, 43, 226, .8);
+        }
+        ol li:nth-of-type(4) {
+            background-color: rgba(138, 43, 226, .8);
+        }
+        ol li:nth-of-type(7) {
+            background-color: rgba(138, 43, 226, .8);
+        }
+        ol :last-child {
+            background-color: rgba(138, 43, 226, .8);
+        } */
+        ol li:nth-child(3n - 2) {
+            background-color: rgba(138, 43, 226, .8);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Desafio Pseudo-classes</h1>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <li>Item 10</li>
+        </ol>
+    </section>
+</body>
+</html>

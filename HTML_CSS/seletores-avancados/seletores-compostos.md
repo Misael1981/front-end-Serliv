@@ -2,15 +2,34 @@
 
 **Seletores compostos** em CSS são ferramentas poderosas que nos permitem combinar diferentes seletores para especificar elementos HTML específicos de forma mais precisa. Eles são essenciais para criar estilos complexos e organizados em suas páginas da web.
 
-Vamos explorar os tipos mais comuns de seleções compostas:
+## Uma pequena Introdução ao DOM
 
-## 1. Seletores de Descendência
+<img src="./img/seletores-anacados-01.PNG">
+
+O DOM é um modelo de Objetos de Documento. Quando temos uma estrutura HTML formada, esta estrutura é representada pelo browser como uma hierarquia de informações.
+
+Podemos fazer uma analogia a uma árvore genealógica, com elementos pai, filhos, irmãos... 
+
+- ### Uma outra forma de representar a mesma estrutura:
+
+<img src="./img/seletores-anacados-02.PNG">
+
+## Vamos explorar os tipos mais comuns de seleções compostas:
+
+### 1. Seletores de Descendência
+
+<img src="./img/seletores-avancados-03.PNG">
+
+Toda vez que visualizamos um espaço entre os seletores no CSS, esse espaço significa **descendência**, ou seja o seletor CSS está contendo toda a tag de mesmo valor que está contida dentro da outra tag, independente do grau de parentesco.
+
+<img src="./img/seletores-avancados-04.PNG">
 
 - **Sintaxe**: `elemento-pai elemento-filho`
 - **Descrição**: Seleciona todos os elementos `elemento-filho`que são descendentes (diretos ou indiretos) de `elemento-pai`.
 
+### Exemplo:
+
 ```
-/* Exemplo: */
 div p {
   color: blue;
 }
@@ -47,7 +66,11 @@ article a {
 
 - Todos os `<a>` que estão **dentro** da tag `<article>` receberam a cor **red**
 
-## 2. Seletores de Filho Direto
+### 2. Seletores de Filho Direto
+
+<img src="./img/seletores-avancados-05.PNG">
+
+O seletor `>` seleciona todo elemento que é **filho direto** do seletor a esquerda do sinal.
 
 - **Sintaxe**: `elemento-pai > elemento-filho`
 - **Descrição**: Seleciona apenas os elementos `elemento-filho `que são **filhos diretos** de `elemento-pai`.
@@ -97,19 +120,24 @@ article {
 
 - Somente as `<b>` que são **filhos direto** do elemento `<b>` receberam a cor **green**.
 
-## 3. Seletores de Irmão Adjacente
+### 3. Seletores de Irmão Adjacente
 
 - **Sintaxe**: `elemento + elemento`
 - **Descrição**: Seleciona **somente** o elemento que vem imediatamente após o primeiro elemento, ambos sendo filhos do mesmo pai.
 
+<img src="./img/seletores-avancados-07.PNG">
+
+### Exemplo
+
 ```
-/* Exemplo: */
-h2 + p {
+h3 + p {
   text-indent: 2em;
 }
 ```
 
-- **Explicação**: O parágrafo que vem imediatamente após um título `<h2>`, ambos com o mesmo pai, terá uma devolução de 2em.
+- **Explicação**: O parágrafo que vem imediatamente após um título `<h3>`, ambos com o mesmo pai, terá uma devolução de 2em.
+
+<img src="./img/seletores-avancados-08.PNG">
 
 ```
 <p>Parágrafo <a href="#"> link falso em <b>negrito</b></a></p>
@@ -151,7 +179,9 @@ article {
 - Selecionou apenas o primeiro parágrafo, o único que é irmão direto do `h3`
 
 
-## 4. Selecionadores de Irmãos Próximos
+### 4. Selecionadores de Irmãos Próximos
+
+<img src="./img/seletores-avancados-09.PNG">
 
 - **Sintaxe**: `elemento ~ elemento`
 - **Descrição**: Seleciona **todos** os elementos que vêm após o primeiro elemento, sendo todos irmãos (mesmo pai).

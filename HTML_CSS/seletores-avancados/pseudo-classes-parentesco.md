@@ -1,5 +1,7 @@
 # Pseudo-classes CSS
 
+<img src="./img/pseudo-classes-parentesco-01.PNG">
+
 ## O que são pseudoclasses CSS?
 
 As pseudoclasses CSS são palavras-chave adicionadas a um seletor que especifica um estado especial do elemento selecionado. Eles permitem que você aplique estilos a um elemento com base em seu estado ou posição em relação a outros elementos, sem a necessidade de adicionar classes adicionais ao HTML.
@@ -161,4 +163,4 @@ ul li:nth-of-type(odd) {
 
 As pseudoclasses são ferramentas poderosas para estilizar elementos com base em seu estado ou posição, tornando seu CSS mais eficiente e flexível.
 
-### [Voltar ao Mneu de Seletores Avançado](Menu.md)
+### [Voltar ao menu de Seletores Avançados](Menu.md)

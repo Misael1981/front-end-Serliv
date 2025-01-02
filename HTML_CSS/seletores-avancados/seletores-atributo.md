@@ -1,6 +1,10 @@
 # Seletores de Atributo
 
+<img src="./img/seletores-atributo-01.PNG">
+
 Os seletores de atributos permitem que você selecione elementos com base em seus atributos HTML. Eles são especialmente úteis para estilizar elementos com classes, IDs ou outros atributos personalizados.
+
+Para selecionar o elemento pelo seu atributo, utilizamos os colchetes `[]`.
 
 ### Sintaxe básica:
 
@@ -22,98 +26,35 @@ a[href] {
 
 - Selecionando todos os elementos `input` com o atributo `type` igual a "texto":
 
-### Exemplos mais avançados
+## Seletores mais avançados
 
-```
-<ul>
-        <li><a href="#">Link falso</a></li>
-        <li><a href="#">Link falso</a></li>
-        <li><a href="https://serliv.com/" target="_blank">Link externo</a></li>
-        <li><a href="seletores-compostos.md">Link para um PDF</a></li>
-        <li><a href="../seletores-avancados/index.html">Link interno</a></li>
-</ul>
-```
+### Operadores de comparação:
 
-```
-a[href="#"] {
-            color: brown;
-}
-```
+- `^=`: **Começa com**
+- `$=`: **Termina com**
+- `=`: **Igual a**
+- `!=`: **Diferente de**
+- `*=`: **Contém**
 
-<img src="img/atributo-01.jpg">
+### `^=`: Começa com
 
-- Selecionados todos os elementos `<a>` com o atributo `href` de valor `#`.
+<img src="./img/seletores-atributo-02.PNG">
 
+O operador `^` vai selecionar o elemento, quando o atributo **começar** com o valor:
 
-```
-input[type="text"] {
-  border: 1px solid gray;
-}
-```
+<img src="./img/seletores-atributo-03.PNG">
 
-- Selecionando todos os elementos com o atributo `class` que contém a **palavra "destaque"**:
+### `$=`: Termina com
 
-```
-div[class*="destaque"] {
-  background-color: yellow;
-}
-```
+O operador `$` vai selecionar o elemento, quando o atributo **terminar** com o valor:
 
-## Operadores de comparação:
-
-- `=`: Igual a
-- `!=`: Diferente de
-- `^=`: Começa com
-- `$=`: Termina com
-- `*=`: Contém
-
-### Exemplos
-
-```
-<ul>
-        <li><a href="#">Link falso</a></li>
-        <li><a href="#">Link falso</a></li>
-        <li><a href="https://serliv.com/" target="_blank">Link externo</a></li>
-        <li><a href="seletores-compostos.md">Link para um MD</a></li>
-        <li><a href="../seletores-avancados/index.html">Link interno</a></li>
-</ul>
-```
-
-```
-a[href^="http"] {
-            color: aqua;
-}
-</sty
-```
-
-<img src="img/atributo-02.jpg">
-
-- Todos os elementos em que o **valor** começarem `^` com `http` receberam o `color: aqua`.
-
-```
-<ul>
-        <li><a href="#">Link falso</a></li>
-        <li><a href="#">Link falso</a></li>
-        <li><a href="https://serliv.com/" target="_blank">Link externo</a></li>
-        <li><a href="seletores-compostos.md">Link para um MD</a></li>
-        <li><a href="../seletores-avancados/index.html">Link interno</a></li>
-</ul>
-```
-
-```
-a[href$=".md"] {
-            color: black;
-}
-```
-
-<img src="img/atributo-03.jpg">
-
-- Todos os elementos em que o valor do elemento terminarem `$` com `.md`, receberam a `color: black`
-
+<img src="./img/seletores-atributo-04.PNG">
 
 ## Pseudo-classe `:not()`
 
 A pseudo-classe `:not()`permite que você selecione todos os elementos, exceto aqueles que correspondem a um seletor específico. É uma forma de inversor a seleção.
+
+<img src="./img/seletores-atributo-05.PNG">
 
 ### Sintaxe:
 
@@ -150,5 +91,7 @@ a:not([target]) {
 - **Personalização de temas**: Crie temas personalizados com base em atributos de dados.
 - **Exclusão de estilos**: Remove estilos de elementos específicos.
 
-### [Voltar ao Menu de Seletores Avançados](Menu.md)
+### [Voltar ao menu de Seletores Avançados](Menu.md)
+
+ 
 

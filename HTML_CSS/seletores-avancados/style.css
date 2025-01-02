@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    margin-bottom: 50rem;
+}
+
+section {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    text-align: center;
+}
+
+article {
+    outline: 4px solid green;
+}
+
+article a {
+    color: red;
+}
+
+article a > b {
+    color: green;
+}
+
+h3 + p {
+    background-color: yellow;
+}
+
+h3 ~ p {
+    border: 4px dashed orange;
+}
+
+.destaque {
+    padding-left: 2rem;
+}
+
+article p:not(.destaque) {
+    background-color: #aeadad;
+}
+
+/* ===== Seletores de Atributo ===== */
+
+a[href="#"]:not(.link-ok) {
+    opacity: .2;
+}
+
+a[href^="http"] {
+    color: red;
+}
+
+a[href$=".pdf"] {
+    color: green;
+}
+
+a[target] {
+    text-decoration: none;
+}
+
+/* ===== Pseudo-classes Parentesco ===== */
+
+div :first-child {
+    color: red;
+}
+
+p:last-child {
+    color: orange;
+}
+
+p:nth-child(2) {
+    background-color: rgba(77, 142, 226, .8);
+}
+
+p:first-of-type {
+    background-color: rgba(0, 128, 0, .8);
+}
+
+p:last-of-type {
+    background-color: rgba(255, 0, 0, .8);
+}
+
+p:nth-of-type(3) {
+    background-color: rgba(255, 165, 0, .8);
+}
+
+li:nth-child(odd) {
+    background-color: rgba(216, 112, 147, .8);
+}
+li:nth-child(2n) {
+    background-color: rgba(112, 216, 173, 0.8);
+}

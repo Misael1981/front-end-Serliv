@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-
     <title>Seletores de atributos</title>
-
-    <link rel="stylesheet" href="style.css">
+    <style>
+        a[href^="http"]::after {
+            content: url(./imagens/newWindow-icon.png);
+            margin-left: .5rem;
+        }
+        a[href$=".pdf"]::before {
+            content: url(./imagens/pdf-icon.gif);
+            margin-right: .5rem;
+        }
+        input[type="checkbox"]:checked + label{
+            color: green;
+        }
+        input[type="checkbox"]+label {
+            color: red;
+        }
+        input[type="checkbox"]:disabled + label {
+            color: blue;
+        }
+        li li:nth-child(3) {
+            background-color: rgba(138, 43, 226, .8);
+        }
+    </style>
 </head>
 
 <body>
@@ -43,7 +62,7 @@
     <label for="chk1">
         li e aceito o contrato
     </label>
-    <input type="checkbox" name="chk2" id="chk2" disabled  >
+    <input type="checkbox" name="chk2" id="chk2" disabled checked>
     <label for="chk2">
         li e aceito o contrato
     </label>

@@ -4,6 +4,8 @@
 
 ## Pseudo-classes
 
+<img src="./img/pseudo-classes-09.jpg">
+
 ### O que são:
 
 - **Representam estados ou condições de um elemento.**
@@ -36,6 +38,8 @@ h1::before {
 ```
 
 ## Pseudo-elementos
+
+<img src="./img/pseudo-elementos-01.PNG">
 
 ### O que são:
 
@@ -94,3 +98,5 @@ ul li:hover {
 
 - Uma lista com marcadores personalizados (✅).
 - Ao passar o mouse sobre um item da lista, ele fica com um fundo cinza.
+
+### [Voltar ao menu de Seletores Avançados](Menu.md)

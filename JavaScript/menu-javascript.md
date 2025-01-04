@@ -7,3 +7,5 @@
 - ### [Sistema Léxico](Sistema-Lexico/menu.md)
 
 - ### [Funções](Funcoes/menu.md)
+
+- ### [DOM (Document Object Model)](./Dom/menu.md)

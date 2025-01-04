@@ -61,33 +61,71 @@ a[target] {
 
 /* ===== Pseudo-classes Parentesco ===== */
 
-div :first-child {
+.pseudoClasses div :first-child {
     color: red;
 }
 
-p:last-child {
+.pseudoClasses p:last-child {
     color: orange;
 }
 
-p:nth-child(2) {
+.pseudoClasses p:nth-child(2) {
     background-color: rgba(77, 142, 226, .8);
 }
 
-p:first-of-type {
+.pseudoClasses p:first-of-type {
     background-color: rgba(0, 128, 0, .8);
 }
 
-p:last-of-type {
+.pseudoClasses p:last-of-type {
     background-color: rgba(255, 0, 0, .8);
 }
 
-p:nth-of-type(3) {
+.pseudoClasses p:nth-of-type(3) {
     background-color: rgba(255, 165, 0, .8);
 }
 
-li:nth-child(odd) {
+.pseudoClasses li:nth-child(odd) {
     background-color: rgba(216, 112, 147, .8);
 }
-li:nth-child(2n) {
+.pseudoClasses li:nth-child(2n) {
     background-color: rgba(112, 216, 173, 0.8);
+}
+
+/* ===== After e Before ===== */
+
+.afterBefore p::before {
+    content: " ANTES ";
+}
+
+.afterBefore P::after {
+    content: " DEPOIS";
+}
+
+.afterBefore__div {
+    border: 2px solid red;
+    padding: 1rem;
+    position: relative;
+}
+
+.afterBefore__div p {
+    margin: 0;
+}
+
+.afterBefore__div::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.afterBefore__div::before {
+    content: url('./img/imagem-aleatoria.png');
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
 }

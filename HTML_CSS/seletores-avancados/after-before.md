@@ -1,8 +1,8 @@
-# Pseudo-classes CSS ::after e ::before: Adicionando Conteúdo Dinâmico aos Elementos
+# Pseudo-elementos CSS ::after e ::before: Adicionando Conteúdo Dinâmico aos Elementos
 
 <img src="./img/alter-before-01.PNG">
 
-As pseudo-classes **::after** e **::before** no CSS são ferramentas poderosas que permitem adicionar conteúdo ou estilos a um elemento sem a necessidade de modificação do HTML original. Eles criam pseudo-elementos, ou seja, elementos que não existem no DOM, mas que podem ser estilizados como se fossem elementos reais.
+Os pseudo-elementos **::after** e **::before** no CSS são ferramentas poderosas que permitem adicionar conteúdo ou estilos a um elemento sem a necessidade de modificação do HTML original. Eles criam pseudo-elementos, ou seja, elementos que não existem no DOM, mas que podem ser estilizados como se fossem elementos reais.
 
 ### Para que servem:
 

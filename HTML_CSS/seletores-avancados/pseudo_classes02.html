@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e pseudo elementos</title>
+    <style>
+        body {
+            height: 100vh;
+            margin-bottom: 50rem;
+        }
+        button {
+            background-color: #7a797979;
+            color: #fff;
+            border: none;
+            padding: 1rem;
+            margin-bottom: 5rem;
+            cursor: pointer;
+        }
+        button:disabled {
+            opacity: .5;
+        }
+        p:empty::before {
+            content: "Parágrafo vazio";
+        }
+        a:focus {
+            background-color: yellow;
+        }
+        input[type="text"]:read-write {
+            background-color: #999;
+            border: none;
+            padding: 0.5rem;
+        }
+        input[type="text"]:read-only {
+            background-color: yellow;
+        }
+        input[type="text"]:disabled {
+            background-color: #fff;
+        }
+        input[type="text"]::placeholder {
+            color: red;
+        }
+        input[type="text"]:placeholder-shown {
+            background-color: aqua;
+        }
+        .pseudoElementos p::first-letter {
+            color: red;
+            font-size: 2rem;
+            float: left;
+            margin-right: .2rem;
+            line-height: 1;
+        }
+        .pseudoElementos p::first-line {
+            color: aqua;
+        }
+        .pseudoElementos ::selection {
+            background-color: orange;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border-bottom: 1px solid #ddd;
+            padding: 0.5rem;
+        }
+        th {
+            background-color: #777373;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #d1b1b1;
+        }
+        tr:nth-child(odd) {
+            background-color: #b1a8a8;
+        }
+        th:hover {
+            background-color: #e9e9e9;
+        }
+        tr:has(input[type="checkbox"]:checked) {
+            background-color: #aaffaa;
+        }
+    </style>
+</head>
+<body>
+    <a href="#titulo">Vai para a sessão</a>
+    <hr>
+    <button>Vai</button>
+    <button disabled>Vai desabled</button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eius.</p>
+    <p> </p>
+    <p></p>
+
+    <ul>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <form>
+        <input type="text" value="Valor Inicial"><br><br>
+        <input type="text" value="Valor" disabled><br><br>
+        <input type="text" value="valor" readonly><br><br>
+        <input type="text" placeholder="placeholder"><br><br>
+        <input type="text"><br><br>
+    </form>
+
+    <h1 id="titulo">Título</h1>
+
+    <section class="pseudoElementos">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit velit fugiat ipsa excepturi iure voluptas, illum tenetur. Soluta perspiciatis inventore veritatis, iusto beatae aliquid! Cumque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit velit fugiat ipsa excepturi iure voluptas, illum tenetur. Soluta perspiciatis inventore veritatis, iusto beatae aliquid! Cumque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit velit fugiat ipsa excepturi iure voluptas, illum tenetur. Soluta perspiciatis inventore veritatis, iusto beatae aliquid! Cumque.</p>
+    </section>
+
+    <section class="pseudoClassHas">
+        <table>
+            <tr>
+                <th></th>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>John Doe</td>
+                <td>johndoe@exemplo.com</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Jane Smith Doe</td>
+                <td>janesmith@exemplo.com</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Michael Johnson</td>
+                <td>michaeljohndoe@exemplo.com</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>Sara Winter</td>
+                <td>sarawinter@exemplo.com</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

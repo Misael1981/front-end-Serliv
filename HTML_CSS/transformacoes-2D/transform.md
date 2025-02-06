@@ -1,141 +1,56 @@
-# `transform`: Moldando Elementos com Flexibilidade
+# Transform CSS
 
-A propriedade `transform`é como uma ferramenta mágica que permite **manipular visualmente** elementos HTML, alterando sua forma, tamanho e posição no espaço. Isso significa que você pode girar , escalar , inclinar e traduzir elementos sem precisar de imagens complexas ou JavaScript.  
+<img src="./img/transform-01.PNG">
 
-### Os principais valores da propriedade `transform` são:
+A propriedade `transform` do CSS é uma ferramenta poderosa que permite manipular elementos HTML de diversas formas, alterando sua aparência e posição sem afetar o layout da página. Vamos explorar as quatro principais funções do `transform`: `translate`, `rotate`, `scale` e `skew`.
 
-<img src="img/transform.png">
+## 1. `translate`: Movendo elementos
 
-## `translate`
+A função `translate` permite mover um elemento horizontalmente (eixo X) e verticalmente (eixo Y). Você pode usar valores em pixels (px), porcentagem (%), ems (em) ou outras unidades de medida CSS.
 
-- Move um elemento para uma nova posição, tanto na horizontal quanto na vertical. É como pegar um elemento e arrastá-lo para outro lugar na página.
+### Exemplos:
 
-  - **Sintaxe**: A sintaxe pode ser especifica para um dos eixos x/y (`translateX` ou `translateY`), como pode ser apenas `translate(x, y)`.;
-  - **Pilha**: Gera contexto de empilhamento, o elemento
-  *movimentado* com o translate irá se sobre à outros elementos em contexto natural; 
+- `transform: translate(50px, 100px)`; // Move o elemento 50px para a direita e 100px para baixo.
+- `transform: translate(-20%, 0)`; // Move o elemento 20% da sua largura para a esquerda.
 
-- **Exemplo**:
+## 2. `rotate`: Girando elementos
 
-```
-<div class="div1">
-        <div class="elemento1 elemento"></div>
-        <div class="elemento2 elemento">
-            <p>Translate</p>
-        </div>
-        <div class="elemento3 elemento"></div>
-</div>
-```
+A função `rotate` permite girar um elemento em torno de um ponto central (por padrão, o centro do elemento). Você pode usar valores em graus (deg), radianos (rad) ou outras unidades de medida angular.
 
-```
-.elemento2 {
-            transform: translate(50px, 100px);
-}
-```
+### Exemplos:
 
-<img src="img/translate.jpg">
+- `transform: rotate(45deg)`; // Gira o elemento 45 graus no sentido horário.
+- `transform: rotate(-90deg)`; // Gira o elemento 90 graus no sentido anti-horário.
 
-- Move o elemento 50 pixels para a direita e 100 pixels para baixo.
+## 3. `scale`: Redimensionando elementos
 
-## `rotate`:
+A função `scale` permite aumentar ou diminuir o tamanho de um elemento. Você pode usar valores numéricos para controlar a escala nos eixos X e Y.
+
+### Exemplos:
+
+- `transform: scale(1.5)`; // Aumenta o tamanho do elemento em 50% em ambos os eixos.
+- `transform: scale(0.5, 0.8)`; // Diminui o tamanho do elemento pela metade no eixo X e em 20% no eixo Y.
+
+## 4. skew: Inclinando elementos
+
+A função skew permite inclinar um elemento horizontalmente (eixo X) e verticalmente (eixo Y). Você pode usar valores em graus (deg) ou outras unidades de medida angular.
+
+### Exemplos:
+
+- `transform: skew(30deg)`; // Inclina o elemento 30 graus no eixo X.
+- `transform: skew(0, 15deg)`; // Inclina o elemento 15 graus no eixo Y.
+Combinando transformações
+Você pode combinar várias funções transform em uma única declaração, separando-as por espaços. A ordem das funções é importante, pois afeta o resultado final.
+
+### Exemplo:
+
+- `transform: translate(50px, 100px) rotate(45deg) scale(1.2)`; // Move, gira e aumenta o elemento.
+Dicas
+- `Use transform-origin` para alterar o ponto central das transformações.
+Experimente diferentes valores e combinações para criar efeitos interessantes.
+Use transições e animações CSS para suavizar as transformações.
 
 
-- Rotaciona um elemento em torno de um ponto específico. Imagine girar um objeto em um eixo.
 
-  - **Sintaxe**: Utilizando valores positivos, a rotação será realizada no sentido horário e, utilizando valores negativos, no sentido Anti-horário.`transform: rotate(angle)`;
 
-- **Exemplo**:
-
-```
-.elemento2 {
-            transform: rotate(45deg);
-}        
-```  
-
-<img src="img/rotate.jpg">
-
-- Rotaciona o elemento 45 graus no sentido horário.
-
-## `scale`
-
-- Altera o tamanho de um elemento, aumentando ou empurrando suas dimensões. É como usar uma lupa para ampliar ou reduzir um objeto.
-
-  - Tem como escala padrão 1. Valores maiores que 1, aumentarão o tamanho do elemento, e valores menores que 1 diminuirao sua escala.
-
-  - **Sintaxe**: `transform: scale(x, y)`;
-  
-- **Exemplo**
-
-```
-.elemento2 {
-    transform: scale(2);
-}
-```
-
-<img src="img/scale.jpg">
-
-- Aumenta o tamanho do elemento em 2 vezes na sua escala;
-
-## `skew`
-
-- Inclina um elemento em um ângulo específico, distorcendo sua forma. É como torcer uma imagem.
-
-  - **Sintaxe**: `transform: skew(x-axis, y-axis)`;
-
-- **Exemplo**
-
-```
-.elemento2 {
-    transform: skew(45deg);
-}
-```
-
-<img src="img/skew.jpg">
-
-- Inclinação do elemento 45 graus no eixo X;
-
-### Para que serva uma transformação de propriedade?
-
-- **Crie efeitos visuais**: Crie animações suaves, transições e efeitos interativos para tornar seu site mais dinâmico e interessante.
-- **Posicionar elementos**: Posicionar elementos de forma precisa e criativa, sem depender de tabelas ou flutuadores.
-- **Criar layouts responsivos**: Adapte o layout de sua página a diferentes tamanhos de tela, utilizando as transformações para ajustar o tamanho e a posição dos elementos.
-
-# Transformações Múltiplas com `transform`
-
-Uma das suas maiores vantagens do `tranform` é a possibilidade de combinar múltiplas transformações em uma única declaração. Isso significa que você pode, por exemplo, usar o  `translate`, `rotate` e `scale` um elemento ao mesmo tempo.
-
-- **Exemplo**:
-
-```
-.elemento2 {
-    transform: scale(2) rotate(45deg);
-}
-```
-
-<img src="img/multiplas-transformacoes.jpg">
-
-- Neste exemplo o elemento aumentou sua escala em 2 e rotacionou 45 graus.
-
-# `transform-origin`:
-
-A propriedade `transform-origin` define o ponto de referência para as transformações. Por padrão, o ponto de referência é o centro do elemento. No entanto, você pode definir um ponto de referência diferente usando valores como `top`,` bottom` ,`left` ,`right` , porcentagens ou coordenadas exatas.  
-
-Sintaxe:
-
-```
-element {
-  transform-origin: x y;
-}
-```
-
-- **Exemplo**:
-
-```
-.elemento2 {
-    transform-origin: top left;
-    transform: rotate(30deg);
-}
-```
-
-<img src="img/transform-origin.jpg">
-
-- Neste exemplo, a rotação será feita em torno do canto superior esquerdo do elemento.
+### [Voltar ao Menu - Transformações 2D](./menu.md)

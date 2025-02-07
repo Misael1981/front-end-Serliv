@@ -50,7 +50,4 @@ Dicas
 Experimente diferentes valores e combinações para criar efeitos interessantes.
 Use transições e animações CSS para suavizar as transformações.
 
-
-
-
 ### [Voltar ao Menu - Transformações 2D](./menu.md)

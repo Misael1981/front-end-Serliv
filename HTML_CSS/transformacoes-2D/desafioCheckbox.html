@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Checkbox</title>
+    <style>
+        body {
+            width: 100%;
+
+            h1 {
+                text-align: center;
+            }
+        }
+        .desafio-um {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                label {
+                    font-size: 2rem;
+
+                    span {
+                        display: inline-block;
+                        width: 30px;
+                        height: 30px;
+                        background-color: red;
+                        border-radius: 5px;
+                        position: relative;
+                    }
+                    input[type="checkbox"] {
+                        width: 1px;
+                        height: 1px;
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        position: absolute;
+                        outline: none;
+                    }
+                    input[type="checkbox"]:checked + span {
+                        background-color: blue;
+                    }
+                    input[type="checkbox"]:checked + span::after {
+                        position: absolute;
+                        top: 3px;
+                        left: 17px;
+                        content: "";
+                        width: 4px;
+                        height: 20px;
+                        background-color: #fff;
+                        transform: rotate(30deg);
+                    }
+                    input[type="checkbox"]:checked + span::before {
+                        position: absolute;
+                        top: 11px;
+                        left: 8.5px;
+                        content: "";
+                        width: 4px;
+                        height: 12px;
+                        background-color: #fff;
+                        transform: rotate(130deg);
+                    }
+                }
+                
+            }
+
+        }
+        .desafio-dois {
+            margin: 5rem auto;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            label {
+                font-size: 2rem;
+
+                span {
+                    border: 1px solid #555;
+                    width: 4rem;
+                    height: 2rem;
+                    display: inline-block;
+                    border-radius: 15px;
+                    background-color: #444;
+                    cursor: pointer;
+                    position: relative;
+                    transition: background .3s ease-in-out;
+
+                    &::after {
+                        transition: transform .3s ease-in-out;
+                    }
+                }
+                span::after {
+                    content: "";
+                    width: 2rem;
+                    height: 2rem;
+                    background-color: #cfd8bc;
+                    display: block;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 0;
+                    left: 0rem;
+                    transform: translateX(0);
+                }
+                input[type="checkbox"]:checked + span {
+                    background-color: #cfd8bc;
+                }
+                input[type="checkbox"]:checked + span::after {
+                    transform: translateX(100%);
+                    background-color: #444;
+                }
+                
+            }
+        }
+        </style>
+</head>
+<body>
+    <h1>Desafio Checkbox</h1>
+    <section class="desafio-um">
+        <form>
+            <label for="html">
+                <input type="checkbox" id="html">
+                <span></span>
+                HTML
+            </label>
+            <label for="css">
+                <input type="checkbox" id="css">
+                <span></span>
+                CSS
+            </label>
+            <label for="js">
+                <input type="checkbox" id="js">
+                <span></span>
+                JavaScript
+            </label>
+        </form>
+    </section>
+    <section class="desafio-dois">
+        <form>
+            <label for="switch">
+                <input type="checkbox" name="switch" id="switch">
+                <span></span>
+                HTML
+            </label>
+        </form>
+    </section>
+</body>
+</html>

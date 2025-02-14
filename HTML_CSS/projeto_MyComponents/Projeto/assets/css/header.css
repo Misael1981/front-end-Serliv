@@ -1,0 +1,40 @@
+.main-header {
+    /* flex: 0 0 16.25rem; */
+    flex: 0 0 20rem;
+    background-color: var(--bg-primary-color);
+    
+    nav {
+        text-align: right;
+        padding: var(--padding-4xl) var(--padding-m);
+        img {
+            width: 8rem;
+            height: 8rem;
+            border-radius: 50%;
+            margin-bottom: var(--margin-xl);
+        }
+        ul {
+            display: inline-block;
+            width: 100%;
+
+            li {
+                padding: .3rem 0;
+                border-bottom: 1px solid white;
+                a {
+                    display: block;
+                    text-decoration: none;
+                    font-size: var(--fonte-size-m);
+                    padding: 2rem 0 1rem;
+                    transition: all .5s ease-in-out;
+                }
+
+                a:hover {
+                    background-color: var(--bg-secondary-color);
+                    padding-right: var(--padding-s);
+                    font-size: 1.5rem;
+                }
+
+            }
+
+        }
+    }
+}

@@ -5,7 +5,11 @@ main {
     line-height: 1;
     
     @media screen and (width > 768px) {
-        flex: 1 0;
+        flex: 0 0 calc(100vw - 18rem);
+        margin-left: 18rem;
+    }
+    @media screen and (width > 1020px) {
+        margin-left: 22rem;
     }
 
     .section-main {

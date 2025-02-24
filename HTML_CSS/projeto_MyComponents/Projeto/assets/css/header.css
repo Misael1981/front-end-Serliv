@@ -48,13 +48,18 @@ header {
     transition: .8s;
 
     @media screen and (width > 768px) {
+        height: 100vh;
         visibility: visible;
-        flex: 0 018rem;
-        min-height: 100vh;
-        position: static;
+        overflow: visible;
+        flex: 0 0 18rem;
+        width: 18rem;
+        position: fixed;
+        z-index: 1;
     }
     @media screen and (width > 1020px) {
         flex: 0 0 22.5rem;
+        width: 24rem;
+        min-height: 100vh;
     }
 
     .main-header {

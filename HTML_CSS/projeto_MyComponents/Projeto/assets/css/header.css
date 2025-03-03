@@ -1,99 +1,98 @@
 #btn-menu {
-    width: 3rem;
-    height: 3rem;
-    background-color: transparent;
-    border: 1px solid var(--txt-secondary-color);
-    border-radius: 5px;
-    cursor: pointer;
-    position: fixed;
-    top: 2rem;
-    left: 2rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 1px solid var(--txt-secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
 
-    .linha {
-        display: block;
-        background-color: var(--txt-secondary-color);
-        width: 2rem;
-        height: 0.25rem;
-        margin: 7px auto;
-        position: relative;
-        transform-origin: center;
-        transition: .5s;
-    }
-    &.active {
-        border: 2px solid var(--txt-primary-color);
-    }
-    &.active .linha:nth-child(1) {
-        transform: translatey(11px) rotate(-45deg);
-        background-color: var(--txt-primary-color);
-    }
-    &.active .linha:nth-child(3) {
-        transform: translatey(-11px) rotate(45deg);
-        background-color: var(--txt-primary-color);
-    }
-    &.active .linha:nth-child(2) {
-        width: 0;
-    }
-    @media screen and (width > 768px) {
-        display: none;
-    }
+  .linha {
+    display: block;
+    background-color: var(--txt-secondary-color);
+    width: 2rem;
+    height: 0.25rem;
+    margin: 7px auto;
+    position: relative;
+    transform-origin: center;
+    transition: 0.5s;
+  }
+  &.active {
+    border: 2px solid var(--txt-primary-color);
+  }
+  &.active .linha:nth-child(1) {
+    transform: translatey(11px) rotate(-45deg);
+    background-color: var(--txt-primary-color);
+  }
+  &.active .linha:nth-child(3) {
+    transform: translatey(-11px) rotate(45deg);
+    background-color: var(--txt-primary-color);
+  }
+  &.active .linha:nth-child(2) {
+    width: 0;
+  }
+  @media screen and (width > 768px) {
+    display: none;
+  }
 }
 
 header {
-    background-color: var(--bg-primary-color);
-    position: absolute;
-    width: 100vw;
-    height: 0;
-    visibility: hidden;
-    overflow: hidden;
-    transition: .8s;
+  background-color: var(--bg-title-primary-color);
+  position: absolute;
+  width: 100vw;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: 0.8s;
 
-    @media screen and (width > 768px) {
-        height: 100vh;
-        visibility: visible;
-        overflow: visible;
-        flex: 0 0 18rem;
-        width: 18rem;
-        position: fixed;
-        z-index: 1;
+  @media screen and (width > 768px) {
+    height: 100vh;
+    visibility: visible;
+    overflow: visible;
+    width: 18rem;
+    position: fixed;
+    z-index: 1;
+  }
+  @media screen and (width > 1020px) {
+    min-height: 100vh;
+    width: 22rem;
+  }
+
+  .main-header {
+    text-align: end;
+    padding: 2rem;
+
+    img {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 50%;
+      margin: 3rem 0;
     }
-    @media screen and (width > 1020px) {
-        flex: 0 0 22.5rem;
-        width: 24rem;
-        min-height: 100vh;
-    }
-
-    .main-header {
-        text-align: end;
-        padding: 2rem;
-
-        img {
-            width: 8rem;
-            height: 8rem;
-            border-radius: 50%;
-            margin: 3rem 0;
+    ul {
+      li {
+        border-bottom: 1px solid var(--txt-secondary-color);
+        a {
+          display: block;
+          font-size: 2rem;
+          padding: 1rem 0;
+          margin: 0.5rem 0;
+          color: var(--txt-secondary-color);
+          background-color: transparent;
+          transition: 0.5s;
         }
-        ul {
-            li {
-                border-bottom: 1px solid var(--txt-secondary-color);
-                a {
-                    display: block;
-                    font-size: 2rem;
-                    padding: 1rem 0;
-                    margin: .5rem 0;
-                    color: var(--txt-secondary-color);
-                    background-color: transparent;
-                    transition: .5s;
-                }
-                a:hover {
-                    background-color: var(--bg-secondary-color);
-                    padding-right: 1rem;
-                }
-            }
+        a:hover,
+        a:focus {
+          background-color: var(--bg-secondary-color);
+          padding-right: 1rem;
         }
+      }
     }
+  }
 }
 
 header.open {
-    visibility: visible;
-    height: 100vh;
+  visibility: visible;
+  height: 100vh;
 }

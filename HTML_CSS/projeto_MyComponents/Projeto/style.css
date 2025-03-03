@@ -1,80 +1,134 @@
-@import url('./assets/css/header.css');
-@import url('./assets/css/home.css');
-@import url('./assets/css/tipografia.css');
+@import url("./assets/css/header.css");
+@import url("./assets/css/home.css");
+@import url("./assets/css/tipografia.css");
+@import url("./assets/css/cards.css");
+@import url("./assets/css/listas.css");
+@import url("./assets/css/formularios.css");
+@import url("./assets/css/botoes.css");
+@import url("./assets/css/tabelas.css");
 
 :root {
-    /* Cores */
-    --txt-primary-color: #ff7833;
-    --txt-secondary-color: #e7e7e7;
+  /* Cores */
+  --txt-primary-color: #ff7833;
+  --txt-secondary-color: #e7e7e7;
 
-    --bg-primary-color: #31333b;
-    --bg-secondary-color: #444856;
+  --bg-title-primary-color: rgba(49, 51, 59, 0.8);
+  --bg-title-secondary-color: rgba(68, 72, 86, 0.6);
+  --bg-primary-color: #31333b;
+  --bg-secondary-color: #444856;
+  --bg-dark-color: #23252d;
 
-    /* Fontes */
-    --font-size-xs: 0.75rem;
-    --font-size-s: 1rem;
-    --font-size-m: 1.25rem;
-    --font-size-l: 1.5rem;
-    --font-size-xl: 2rem;
-    --font-size-xxl: 2.2rem;
-    --font-size-xxxl: 3rem;
+  /* Fontes */
+  --font-size-xs: 0.75rem;
+  --font-size-s: 1rem;
+  --font-size-m: 1.25rem;
+  --font-size-l: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 2.2rem;
+  --font-size-xxxl: 3rem;
+}
+
+html {
+  font-size: 90%;
 }
 
 body {
-    max-width: 100%;
-    color: var(--txt-secondary-color);
-    font-family: "Roboto", serif;
-    
-    @media screen and (width > 768px) {
-        display: flex;
-    }
+  background-image: url(./assets/img/bg-unsplash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+  color: var(--txt-secondary-color);
+  font-family: "Roboto", serif;
 
-    a {
-        text-decoration: none;
-    }
+  @media screen and (width > 768px) {
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+main {
+  background-color: var(--bg-title-secondary-color);
+  width: 100vw;
+  min-height: 100vh;
+  line-height: 1;
+
+  @media screen and (width > 768px) {
+    flex: 0 0 calc(100vw - 18rem);
+    margin-left: 18rem;
+  }
+  @media screen and (width > 1020px) {
+    flex: 0 0 calc(100vw - 22rem);
+    margin-left: 22rem;
+  }
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 h1 {
-    padding: 5rem 0 0;
-    text-align: center;
-    font-size: 3.5rem;
-    color: #a9a7a7;
+  padding: 6rem 0 0;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #a9a7a7;
 }
 
-h2, h3, h4, h5 {
-    color: var(--txt-primary-color);
+h2,
+h3,
+h4,
+h5 {
+  color: var(--txt-primary-color);
 }
 
 h2 {
-    font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-xxxl);
 }
 
 h3 {
-    font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xxl);
 }
 
 h4 {
-    font-size: var(--font-size-xl);
+  font-size: var(--font-size-xl);
 }
 
 p {
-    font-size: var(--font-size-l);
+  font-size: var(--font-size-l);
 }
 
 .section-main {
-    display: none;
+  display: none;
 }
 
 .section-main.active-section {
-    display: block;
-    padding: 3rem 2rem;
-    line-height: 1.2;
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.2;
+  width: 85%;
+  margin: 0 auto;
 
-    @media screen and (width > 1020px) {
-        padding: 4rem 5rem;
-    }
+  @media screen and (width > 1020px) {
+  }
+}
+
+.hightlight {
+  border-left: 3px solid var(--txt-primary-color);
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+  @media screen and (width < 1020px) {
+    flex-wrap: wrap;
+  }
 }

@@ -1,0 +1,55 @@
+.listas {
+
+    .row {
+        padding: 3rem 0;
+        .lista {
+            flex: 1 0 260px;
+
+            h4 {
+                padding-bottom: 2rem;
+                text-align: center;
+            }
+
+            ol {
+                list-style: decimal;
+            }
+
+            ul {
+                list-style: disc;
+            }
+
+            ol, ul {
+                margin-left: 25%;
+            }
+
+            ol li, ul li {
+                margin-bottom: .5rem;
+            }
+            .alternate {
+                list-style: none;
+
+                li {
+                    border-bottom: 1px solid var(--txt-secondary-color);
+                }
+            }
+            .ordenadasDois {
+                list-style: upper-alpha;
+
+                ol {
+                    list-style: upper-roman;
+
+                    ol {
+                        list-style: lower-greek;
+                    }
+                }
+            }
+            .roman {
+                list-style: upper-roman;
+
+                .list-emoji {
+                    list-style-type: "\1F60E";
+                }
+            }
+        }
+    }
+}

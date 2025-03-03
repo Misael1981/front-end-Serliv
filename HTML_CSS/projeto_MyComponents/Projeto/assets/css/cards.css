@@ -1,0 +1,33 @@
+.cards-container {
+
+    .show-cards {
+        padding: 5rem 0;
+
+        h3 {
+            padding-bottom: 3rem;
+        }
+        .row {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+    
+    
+            .card {
+                background-color: var(--bg-primary-color);
+                flex: 1 0 300px;
+                max-width: 80vw;
+        
+                img {
+                    width: 100%;
+                }
+                .card__content {
+                    padding: 1rem;
+        
+                    h4 {
+                        padding: 1rem 0;
+                    }
+                }
+            }
+        }
+    }
+}

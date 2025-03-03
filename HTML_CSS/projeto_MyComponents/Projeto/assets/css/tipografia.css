@@ -1,14 +1,5 @@
 .tipografia {
-
-    .hightlight {
-        border-left: 3px solid var(--txt-primary-color);
-        padding-left: 2rem;
-        margin-bottom: 1.5rem;
-
-        h2 {
-            margin-bottom: 1rem;
-        }
-    }
+    
     section {
         padding: 2.5rem 0;
 

@@ -1,207 +1,211 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ===== Google Fonts ===== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- ===== NORMALIZE ===== -->
-    <link href="
-     https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" 
-     rel="stylesheet">
+    <link
+      href="
+     https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+      rel="stylesheet"
+    />
     <!-- ===== RESET CSS ===== -->
-    <link href="
-     https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" 
-     rel="stylesheet">
+    <link
+      href="
+     https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+      rel="stylesheet"
+    />
     <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- ===== Js ===== -->
-     <script src="./main.js" defer></script>
+    <script src="./main.js" defer></script>
     <title>Components</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="main-header">
-            <img src="./assets/img/computador-perfil.jpg" alt="Desenho de um computador simpático">           
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Tipografia</a></li>
-                <li><a href="#">Cards</a></li>
-                <li><a href="#">Listas</a></li>
-                <li><a href="#">Formulários</a></li>
-                <li><a href="#">Botões</a></li>
-                <li><a href="#">Tabela</a></li>
-            </ul>
-        </nav>
+      <nav class="main-header">
+        <img
+          src="./assets/img/computador-perfil.jpg"
+          alt="Desenho de um computador simpático"
+        />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tipografia</a></li>
+          <li><a href="#">Cards</a></li>
+          <li><a href="#">Listas</a></li>
+          <li><a href="#">Formulários</a></li>
+          <li><a href="#">Botões</a></li>
+          <li><a href="#">Tabela</a></li>
+        </ul>
+      </nav>
     </header>
     <button id="btn-menu">
-        <span class="linha"></span>
-        <span class="linha"></span>
-        <span class="linha"></span>
+      <span class="linha"></span>
+      <span class="linha"></span>
+      <span class="linha"></span>
     </button>
     <main class="main">
-        <h1>My Components</h1>
-        <!-- ===== HOME ===== -->
-        <section class="section-main">
-            <aside>
-                <h2>
-                    A sua área para armazenar seus códigos HTML e CSS
-                </h2>
-                <h3>
-                    Componentes criados por Daniel Tapias Morais para os cursos da <a href="https://serliv.com/">Serliv</a>
-                </h3>
-                <p>
-                  Desenvolvedor e instrutor de tecnologias front-end. Apaixonado por ensinar e transformar positivamente a vida das pessoas.
-                </p>
-            </aside>
-            <h3 class="title-address">Venha conhecer nossas redes sociais</h3>
-            <address>
-                <p>
-                    <a href="#">
-                        <img src="./assets/img/icons/youtube.svg" alt="">
-                        You Tube
-                    </a>
-                    <a href="#">
-                        <img src="./assets/img/icons/instagram.svg" alt="">
-                        Instagram
-                    </a>
-                    <a href="#">
-                        <img src="./assets/img/icons/twitter-x.svg" alt="">
-                        Twiter
-                    </a>
-                    <a href="#">
-                        <img src="./assets/img/icons/linkedin.svg" alt="">
-                        Linkedin
-                    </a>
-                </p>
-            </address>
-        </section>
-        <!-- ===== TIPOGRAFIA ===== -->
-        <section class="section-main active-section tipografia">
-            <article class="hightlight">
-                <h2>Tipografia</h2>
-                <p>
-                    A Tipografia transmite nossas definições de tamanhos 
-                    e espaçamento e deve ser utilizada respeitando a
-                    hierarquia dos elementos na interface
-                </p>
-            </article>
-    
-            <section>
-                <h3>Elementos</h3>
-    
-                <article class="article__tipografia">
-                    <h4>Textos</h4>
-    
-                    <p>
-                        Esse texto esta escrito em 
-                        <b>negrito</b> 
-                        e esse texto é um 
-                        <strong>texto forte</strong>.
-                    </p>
-                    <p>
-                        Esse texto está em 
-                        <i>itálico</i> 
-                        e este está 
-                        <em>com ênfase</em>.
-                    </p>
-                    <p>
-                        Isto é um texto escrito de forma 
-                        <u class="underline">sublinhado errado</u> 
-                        e isso é um <a href="#"> link</a>.
-                    </p>
-                </article>
-    
-                <article>
-                    <h4>Sobreescrito e subscrito</h4>
-                    <p>
-                        3<sup>2</sup> é igual à 9
-                    </p>
-                    <p>
-                        A fórmula da água é H<sub>2</sub>O 
-                    </p>
-                </article>
-    
-                <article class="articlo__abreviacoes">
-                    <h4>Abreviações</h4>
-    
-                    <p>
-                        Para criar páginas na web precisamos aprender sobre 
-                        <abbr
-                            title="HiperText Markup Language">HTML
-                        </abbr>.
-                    </p>
-    
-                    <p>
-                        Para criar páginas na web precisamos aprender sobre
-                        <a href="#html-dfn">
-                            <abbr title="HiperText Markup Language">
-                                HTML
-                            </abbr>
-                        </a> .
-                    </p>
-                    <p>
-                        O 
-                        <dfn id="html-dfn"> 
-                            <abbr title="HiperText Markup Language">
-                                HTML
-                            </abbr> 
-                        </dfn> 
-                        é a principal linguagem da web onde 
-                        podemos incluir nosso conteúdo de forma semântica
-                    </p>
-                </article>
-    
-                <article>
-                    <h4>Citações</h4>
-                    <blockquote>
-                        <p>
-                            O ruim não é ter trabalho. O ruim é ter de trabalhar
-                        </p>
-                        <cite>Seu Madruga</cite>
-                    </blockquote>
-    
-                    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
-                        <p>
-                            O Elemento HTML
-                            &lt;blockquote&gt;
-                             (ou Elemento HTML de citação de bloco) indica que o texto
-                            incluído é uma longa citação.
-                        </p>
-                        <cite>MDN</cite>
-                    </blockquote>
-    
-                    <p>
-                        Segundo o Seu Madruga 
-                        <q>
-                            A vingança nunca é plena, mata a alma e envenena
-                        </q>.
-                    </p>
-    
-                    <p>
-                        De acordo com o site da Mozilla,
-                        <q cite="https://www.mozilla.org/en-US/about/history/details/">
-                            Firefox foi lançado em 2004 e se tornou um grande sucesso.</q>
-                    </p>
-    
-                    <p>O filme <cite>Escola do Rock</cite> contém várias músicas antigas.</p>
-    
-                </article>
-    
-                <article>
-                    <h4>Coisas de computador</h4>
-    
-                    <p>A propriedade <code>background</code> do CSS serve para colocar uma imagem de fundo</p>
-    
-                    <pre>                 
+      <h1>My Components</h1>
+      <!-- ===== HOME ===== -->
+      <section class="section-main home">
+        <aside>
+          <h2>A sua área para armazenar seus códigos HTML e CSS</h2>
+          <h3>
+            Componentes criados por Daniel Tapias Morais para os cursos da
+            <a href="https://serliv.com/">Serliv</a>
+          </h3>
+          <p>
+            Desenvolvedor e instrutor de tecnologias front-end. Apaixonado por
+            ensinar e transformar positivamente a vida das pessoas.
+          </p>
+        </aside>
+        <h3 class="title-address">Venha conhecer nossas redes sociais</h3>
+        <address>
+          <p>
+            <a href="#">
+              <img src="./assets/img/icons/youtube.svg" alt="" />
+              You Tube
+            </a>
+            <a href="#">
+              <img src="./assets/img/icons/instagram.svg" alt="" />
+              Instagram
+            </a>
+            <a href="#">
+              <img src="./assets/img/icons/twitter-x.svg" alt="" />
+              Twiter
+            </a>
+            <a href="#">
+              <img src="./assets/img/icons/linkedin.svg" alt="" />
+              Linkedin
+            </a>
+          </p>
+        </address>
+      </section>
+      <!-- ===== TIPOGRAFIA ===== -->
+      <section class="section-main tipografia">
+        <article class="hightlight">
+          <h2>Tipografia</h2>
+          <p>
+            A Tipografia transmite nossas definições de tamanhos e espaçamento e
+            deve ser utilizada respeitando a hierarquia dos elementos na
+            interface
+          </p>
+        </article>
+
+        <section>
+          <h3>Elementos</h3>
+
+          <article class="article__tipografia">
+            <h4>Textos</h4>
+
+            <p>
+              Esse texto esta escrito em
+              <b>negrito</b>
+              e esse texto é um
+              <strong>texto forte</strong>.
+            </p>
+            <p>
+              Esse texto está em
+              <i>itálico</i>
+              e este está
+              <em>com ênfase</em>.
+            </p>
+            <p>
+              Isto é um texto escrito de forma
+              <u class="underline">sublinhado errado</u>
+              e isso é um <a href="#"> link</a>.
+            </p>
+          </article>
+
+          <article>
+            <h4>Sobreescrito e subscrito</h4>
+            <p>3<sup>2</sup> é igual à 9</p>
+            <p>A fórmula da água é H<sub>2</sub>O</p>
+          </article>
+
+          <article class="articlo__abreviacoes">
+            <h4>Abreviações</h4>
+
+            <p>
+              Para criar páginas na web precisamos aprender sobre
+              <abbr title="HiperText Markup Language">HTML </abbr>.
+            </p>
+
+            <p>
+              Para criar páginas na web precisamos aprender sobre
+              <a href="#html-dfn">
+                <abbr title="HiperText Markup Language"> HTML </abbr>
+              </a>
+              .
+            </p>
+            <p>
+              O
+              <dfn id="html-dfn">
+                <abbr title="HiperText Markup Language"> HTML </abbr>
+              </dfn>
+              é a principal linguagem da web onde podemos incluir nosso conteúdo
+              de forma semântica
+            </p>
+          </article>
+
+          <article>
+            <h4>Citações</h4>
+            <blockquote>
+              <p>O ruim não é ter trabalho. O ruim é ter de trabalhar</p>
+              <cite>Seu Madruga</cite>
+            </blockquote>
+
+            <blockquote
+              cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"
+            >
+              <p>
+                O Elemento HTML &lt;blockquote&gt; (ou Elemento HTML de citação
+                de bloco) indica que o texto incluído é uma longa citação.
+              </p>
+              <cite>MDN</cite>
+            </blockquote>
+
+            <p>
+              Segundo o Seu Madruga
+              <q> A vingança nunca é plena, mata a alma e envenena </q>.
+            </p>
+
+            <p>
+              De acordo com o site da Mozilla,
+              <q cite="https://www.mozilla.org/en-US/about/history/details/">
+                Firefox foi lançado em 2004 e se tornou um grande sucesso.</q
+              >
+            </p>
+
+            <p>
+              O filme <cite>Escola do Rock</cite> contém várias músicas antigas.
+            </p>
+          </article>
+
+          <article>
+            <h4>Coisas de computador</h4>
+
+            <p>
+              A propriedade <code>background</code> do CSS serve para colocar
+              uma imagem de fundo
+            </p>
+
+            <pre>
+                 
                         Este texto é um
                         
                         texto pré-formatado.
-                    </pre>
-    
-                    <pre>
+                    </pre
+            >
+
+            <pre>
                         <code>
                         article {
                             padding-top: 1px;
@@ -209,37 +213,577 @@
                         }
                         </code>
                     </pre>
-    
-                    <p>
-                        Após executar o método <code>push()</code> obtive o retorno
-                        <samp lang="en-us"> undefined has not a push() function</samp>
-                    </p>
-    
-                    <p>Pressione a tecla <kbd> CTRL</kbd> + <kbd>C</kbd> para copiar</p>
-                </article>
-    
-                <article>
-                    <h4>Datas e horários</h4>
-    
-                    <p>O evento ocorrerá em <time datetime="2025-11-10"> 10 de Novembro de 2025</time>.</p>
-                    <p>O evento ocoorerá em <time datetime="2025-11-10"> 10/11/2025 </time>.</p>
-                    <p>O evento ocorrerá às <time datetime="2025-11-10T20:00:00"> 20h00 do dia 10 de Novembro de
-                            2025</time>.</p>
-                    <p>O evento ocorrerá às <time datetime="2025-11-10T20:00:00-03:00"> 20h00 do dia 10 de Novembro de
-                            2025</time>.</p>
-    
-                    <h5 lang="en-us">JS Conference</h5>
-                    
-                    <p>O evento iniciará exatamente às <time datetime="19:00"> 19h00</time>.</p>
-    
-                    <p>O evento ocorrerá às 20h00 do dia <del datetime="2025-11-05"> 10 de Novembro de
-                            2025</del> <ins> <time datetime="2025-11-11T20:00:00-03:00"> 11 de Novembro de
-                                2025</time></ins>.</p>
-    
-    
-                </article>
-            </section>
+
+            <p>
+              Após executar o método <code>push()</code> obtive o retorno
+              <samp lang="en-us"> undefined has not a push() function</samp>
+            </p>
+
+            <p>Pressione a tecla <kbd> CTRL</kbd> + <kbd>C</kbd> para copiar</p>
+          </article>
+
+          <article>
+            <h4>Datas e horários</h4>
+
+            <p>
+              O evento ocorrerá em
+              <time datetime="2025-11-10"> 10 de Novembro de 2025</time>.
+            </p>
+            <p>
+              O evento ocoorerá em
+              <time datetime="2025-11-10"> 10/11/2025 </time>.
+            </p>
+            <p>
+              O evento ocorrerá às
+              <time datetime="2025-11-10T20:00:00">
+                20h00 do dia 10 de Novembro de 2025</time
+              >.
+            </p>
+            <p>
+              O evento ocorrerá às
+              <time datetime="2025-11-10T20:00:00-03:00">
+                20h00 do dia 10 de Novembro de 2025</time
+              >.
+            </p>
+
+            <h5 lang="en-us">JS Conference</h5>
+
+            <p>
+              O evento iniciará exatamente às
+              <time datetime="19:00"> 19h00</time>.
+            </p>
+
+            <p>
+              O evento ocorrerá às 20h00 do dia
+              <del datetime="2025-11-05"> 10 de Novembro de 2025</del>
+              <ins>
+                <time datetime="2025-11-11T20:00:00-03:00">
+                  11 de Novembro de 2025</time
+                ></ins
+              >.
+            </p>
+          </article>
         </section>
+      </section>
+      <!-- ===== CARDS ===== -->
+      <section class="section-main cards-container">
+        <article class="hightlight">
+          <h2>Cards</h2>
+          <p>
+            Cards são elementos usados para agrupar informações como imagens
+            (opcional), título e descrição. Normalmente são links para outras
+            páginas dentro da mesma aplicação ou site.
+          </p>
+        </article>
+
+        <section class="show-cards">
+          <h3>1 Card</h3>
+          <div class="row">
+            <article class="card">
+              <img src="./assets/img/fulls/01.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="show-cards">
+          <h3>2 Cards</h3>
+          <div class="row">
+            <article class="card">
+              <img src="./assets/img/fulls/02.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/img/fulls/03.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="show-cards">
+          <h3>3 Cards</h3>
+          <div class="row">
+            <article class="card">
+              <img src="./assets/img/fulls/04.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/img/fulls/05.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/img/fulls/06.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="show-cards">
+          <h3>4 Cards</h3>
+          <div class="row">
+            <article class="card">
+              <img src="./assets/img/thumbs/01.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/img/thumbs/02.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/img/thumbs/03.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="./assets/img/thumbs/06.jpg" alt="imagem aleatória" />
+              <div class="card__content">
+                <h4 class="card__title">Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus, sunt natus alias labore iste distinctio?
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+      <!-- ===== LISTAS ===== -->
+      <section class="section-main active-section listas">
+        <article class="hightlight">
+          <h2>Listas</h2>
+          <p>Listas podem ser ordenadas, não ordenadas e aninhadas</p>
+        </article>
+        <div class="row">
+          <div class="lista">
+            <h4>Não Ordenada</h4>
+            <ul>
+              <li>item 01</li>
+              <li>item 02</li>
+              <li>item 03</li>
+            </ul>
+          </div>
+
+          <div class="lista">
+            <h4>Ordenada</h4>
+            <ol start="3">
+              <li>item 01</li>
+              <li>item 02</li>
+              <li>item 03</li>
+            </ol>
+          </div>
+
+          <div class="lista">
+            <h4>Alternates</h4>
+            <ul class="alternate">
+              <li>item 01</li>
+              <li>item 02</li>
+              <li>item 03</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="lista">
+            <h4>Não Ordenada</h4>
+            <ul>
+              <li>item 01</li>
+              <li>
+                item 02
+                <ul>
+                  <li>item 2.1</li>
+                  <li>
+                    item 2.2
+                    <ul>
+                      <li>item 2.2.1</li>
+                      <li>item 2.2.2</li>
+                      <li>item 2.2.3</li>
+                    </ul>
+                  </li>
+                  <li>item 2.3</li>
+                </ul>
+              </li>
+              <li>item 03</li>
+            </ul>
+          </div>
+
+          <div class="lista">
+            <h4>ordenadas</h4>
+            <ol start="6" type="A" class="ordenadasDois">
+              <li>item 1</li>
+              <li>
+                item 2
+                <ol type="I" reversed>
+                  <li>item 2.1</li>
+                  <li>
+                    item 2.2
+                    <ol type="a" start="10">
+                      <li>item 2.2.1</li>
+                      <li>item 2.2.2</li>
+                      <li>item 2.2.3</li>
+                    </ol>
+                  </li>
+                  <li>item 2.3</li>
+                </ol>
+              </li>
+              <li>item 3</li>
+            </ol>
+          </div>
+
+          <div class="lista">
+            <h4>Ambas</h4>
+            <ol class="roman">
+              <li>item 1</li>
+              <li>
+                item 2
+                <ul class="list-emoji">
+                  <li>item 2.1</li>
+                  <li>item 2.2</li>
+                  <li>item 2.3</li>
+                </ul>
+              </li>
+              <li>item 3</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- ====== FORMULÁRIOS ===== -->
+      <section class="section-main formularios">
+        <h2>Entre em contato</h2>
+
+        <div class="row">
+          <form action="">
+            <div class="row">
+              <div>
+                <label for="nome">Nome</label>
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  placeholder="Nome completo"
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Digite seu e-mail"
+                />
+              </div>
+            </div>
+            <label for="msn">Digite sua mensagem</label>
+            <textarea name="msn" id="msn" rows="6"></textarea>
+            <input type="submit" value="Enviar" class="btn" />
+          </form>
+
+          <address>
+            <p>
+              <b> Endereço</b> 1234 Somewhere Rd. Nashville, TN 00000 United
+              States
+            </p>
+            <p><b> Telefone</b> 000-000-000</p>
+            <p><b> Email</b> email@server.com</p>
+          </address>
+        </div>
+
+        <section class="quiz">
+          <h2>Quiz</h2>
+
+          <form action="">
+            <label for="tecnologia">Qual a sua linguagem preferida?</label>
+
+            <select name="tecnologia" id="tecnologia">
+              <option value="null">Selecione</option>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">JavaScript</option>
+            </select>
+
+            <label class="radius">
+              Baixa Prioridade
+              <input type="radio" name="prioridade" value="baixa" />
+            </label>
+            <label class="radius">
+              Média Prioridade
+              <input type="radio" name="prioridade" value="media" />
+            </label>
+            <label class="radius">
+              Alta Prioridade
+              <input type="radio" name="prioridade" value="alta" />
+            </label>
+
+            <label class="radius">
+              <input type="checkbox" name="copy" value="true" />
+              Envie me uma cópia
+            </label>
+            <label class="radius">
+              <input type="checkbox" name="humano" value="true" />
+              Sou um humano
+            </label>
+
+            <div class="row">
+              <input type="reset" value="Limpar" class="btn-form" />
+              <input type="submit" value="Enviar" class="btn-form" />
+            </div>
+          </form>
+        </section>
+      </section>
+      <!-- ===== BOTÔES ===== -->
+      <section class="section-main botoes">
+        <article class="hightlight">
+          <h2>Botões</h2>
+          <p>
+            Inputs (entrada de dados) permitem o(a) usuário(a) interagir com a
+            aplicação ou site e inserir conteúdo e dados.
+          </p>
+          <p>
+            Normalmente são usados em formulários, mas não somente, pois podem
+            na verdade ser links com aparência de botões.
+          </p>
+        </article>
+
+        <section>
+          <div class="row">
+            <article class="btns-small">
+              <h3>Botão Normal</h3>
+              <button class="btn">Button</button>
+              <button class="btn btn-big">Button</button>
+            </article>
+
+            <article class="btns-small">
+              <h3>Botão Outline</h3>
+              <button class="btn btn-stroke">Button</button>
+              <button class="btn btn-stroke btn-big">Button</button>
+            </article>
+          </div>
+        </section>
+
+        <div class="row">
+          <article class="btns-great">
+            <h3>Botão Full</h3>
+            <button class="btn btn-full">Button</button>
+            <button class="btn btn-big btn-full">Button</button>
+          </article>
+
+          <article class="btns-great">
+            <h3>Botão Full Outline</h3>
+            <button class="btn btn-stroke btn-full">Button</button>
+            <button class="btn btn-stroke btn-big btn-full">Button</button>
+          </article>
+        </div>
+      </section>
+      <!-- ===== TABELAS ===== -->
+      <section class="section-main tabelas">
+        <article class="hightlight">
+          <h2>Tabelas</h2>
+          <p>
+            As tabelas são usadas para apresentar dados de forma estruturada.
+            Não deve ser usada para outros objetivos que não seja a
+            representação de dados ou informações. Possui as seguintes
+            variações:
+          </p>
+        </article>
+
+        <section>
+          <h3>Tabela padrão</h3>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Segun Adebayo</td>
+                <td>Founder</td>
+                <td>sage@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Mark Chandler</td>
+                <td>Developer</td>
+                <td>mark@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Lazar Nikolov</td>
+                <td>DevRel</td>
+                <td>lazar@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Javier Alaves</td>
+                <td>Designer</td>
+                <td>javi@serfrontend.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h3>Tabela zebrada</h3>
+
+          <table class="table table-alternate">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Segun Adebayo</td>
+                <td>Founder</td>
+                <td>sage@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Mark Chandler</td>
+                <td>Developer</td>
+                <td>mark@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Lazar Nikolov</td>
+                <td>DevRel</td>
+                <td>lazar@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Javier Alaves</td>
+                <td>Designer</td>
+                <td>javi@serfrontend.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h3>Tabela com separação vertical</h3>
+
+          <table class="table table-verticalLines">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Segun Adebayo</td>
+                <td>Founder</td>
+                <td>sage@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Mark Chandler</td>
+                <td>Developer</td>
+                <td>mark@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Lazar Nikolov</td>
+                <td>DevRel</td>
+                <td>lazar@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Javier Alaves</td>
+                <td>Designer</td>
+                <td>javi@serfrontend.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h3>Tabela zebrada com separação vertical</h3>
+
+          <table class="table table-alternate table-verticalLines">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Segun Adebayo</td>
+                <td>Founder</td>
+                <td>sage@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Mark Chandler</td>
+                <td>Developer</td>
+                <td>mark@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Lazar Nikolov</td>
+                <td>DevRel</td>
+                <td>lazar@serfrontend.com</td>
+              </tr>
+              <tr>
+                <td>Javier Alaves</td>
+                <td>Designer</td>
+                <td>javi@serfrontend.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
     </main>
-</body>
+  </body>
 </html>

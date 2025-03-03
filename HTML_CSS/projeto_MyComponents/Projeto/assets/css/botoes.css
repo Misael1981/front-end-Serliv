@@ -1,0 +1,51 @@
+.botoes {
+  padding: 2rem 0;
+
+  .btn {
+    background-color: var(--bg-primary-color);
+    border: 2px solid var(--bg-dark-color);
+    color: var(--txt-secondary-color);
+    font-size: var(--font-size-m);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.2rem;
+    transition: 1s;
+  }
+  .btn:hover {
+    background-color: var(--bg-dark-color);
+  }
+  .btn.btn-stroke {
+    background-color: transparent;
+  }
+  .btn.btn-stroke:hover {
+    background-color: var(--txt-secondary-color);
+    color: var(--bg-primary-color);
+  }
+  .btn.btn-full {
+    width: 100%;
+  }
+  .row {
+    article {
+      width: 100%;
+      margin: 1.5rem 0;
+      @media screen and (width > 1020px) {
+        flex: 1 0 50%;
+      }
+      h3 {
+        padding-bottom: 1rem;
+      }
+    }
+    .btns-small {
+      button:nth-child(3) {
+        margin-left: 2rem;
+        font-size: var(--font-size-l);
+      }
+    }
+    .btns-great {
+      button:nth-child(3) {
+        margin-top: 2rem;
+        font-size: var(--font-size-l);
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+.formularios {
+  box-sizing: border-box;
+  z-index: 2;
+  padding: 2rem 0;
+
+  .row {
+    form {
+      label,
+      input,
+      textarea {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 8px;
+        border: 0;
+        outline: 0;
+      }
+      .row {
+        padding: 2rem 0;
+
+        div {
+          width: 100%;
+
+          label,
+          input {
+            padding-bottom: 0.5rem;
+          }
+          label {
+            font-size: var(--font-size-l);
+          }
+          input {
+            font-size: var(--font-size-m);
+            padding: 1rem 0.5rem;
+            outline: 0;
+          }
+        }
+      }
+      label {
+        font-size: var(--font-size-l);
+        padding: 0.5rem 0;
+      }
+      textarea {
+        padding: 1rem 0.5rem;
+        margin-bottom: 1rem;
+        font-size: var(--font-size-m);
+      }
+      input[type="submit"] {
+        font-size: var(--font-size-m);
+        padding: 1rem;
+        border: 0;
+        background-color: var(--bg-primary-color);
+        color: var(--txt-secondary-color);
+        cursor: pointer;
+        transition: 1s;
+
+        &:hover,
+        &:focus {
+          background-color: var(--bg-dark-color);
+        }
+      }
+    }
+  }
+  address {
+    padding: 2rem 0;
+    p {
+      font-size: var(--font-size-m);
+      margin-bottom: 1rem;
+      @media screen and (width > 1020px) {
+        font-size: var(--font-size-l);
+      }
+      b {
+        font-weight: 700;
+      }
+    }
+  }
+  .quiz {
+    padding: 0 0 1rem;
+
+    @media screen and (width > 1020px) {
+      max-width: 50%;
+      margin-top: 2rem;
+    }
+    form {
+      padding-top: 2rem;
+
+      label,
+      input[type="reset"],
+      input[type="submit"],
+      select {
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+      }
+
+      label {
+        font-size: var(--font-size-l);
+      }
+      select {
+        font-size: var(--font-size-l);
+        padding: 0.8rem 0;
+        border: 0;
+        outline: 0;
+        border-radius: 0.5rem;
+        margin: 0.5rem 0 1rem;
+      }
+      .radius {
+        padding: 0.5rem 0;
+        font-size: var(--font-size-m);
+      }
+      input[type="radio"] {
+        margin-left: 0.3rem;
+      }
+      input[type="checkbox"] {
+        margin-right: 0.3rem;
+      }
+      .row {
+        gap: 0.8rem;
+        margin-top: 1rem;
+
+        .btn-form {
+          background-color: var(--bg-primary-color);
+          color: var(--txt-secondary-color);
+          border: 0;
+          outline: 0;
+          border-radius: 0.5rem;
+          font-size: var(--font-size-l);
+          padding: 0.8rem;
+          cursor: pointer;
+          transition: 1s;
+
+          &:hover {
+            background-color: var(--bg-dark-color);
+          }
+        }
+      }
+    }
+  }
+}

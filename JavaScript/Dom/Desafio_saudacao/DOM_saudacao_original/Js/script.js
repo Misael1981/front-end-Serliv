@@ -1,11 +1,9 @@
-const saudacao = document.querySelector('.top-bar p')
-const userName = prompt('Digite o seu nome')
+const topBar = document.querySelector(".top-bar p");
+console.log(topBar);
+const userName = prompt("Digite o seu nome");
 
-if (userName === "") {
-    const elementoParaRemover = saudacao.parentElement
-    elementoParaRemover.parentElement.removeChild(elementoParaRemover)
+if (!userName) {
+  topBar.parentElement.style.display = "none";
 }
 
-saudacao.innerHTML += `<b>${userName}</b>`
-
-
+topBar.textContent += userName;

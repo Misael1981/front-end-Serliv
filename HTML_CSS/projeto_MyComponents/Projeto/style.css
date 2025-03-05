@@ -52,16 +52,16 @@ body {
 
 main {
   background-color: var(--bg-title-secondary-color);
-  width: 100vw;
+  width: 100vh;
   min-height: 100vh;
   line-height: 1;
 
   @media screen and (width > 768px) {
-    flex: 0 0 calc(100vw - 18rem);
+    flex: 1 0 calc(100vw - 20rem);
     margin-left: 18rem;
   }
   @media screen and (width > 1020px) {
-    flex: 0 0 calc(100vw - 22rem);
+    flex: 1 0 calc(100vw - 26rem);
     margin-left: 22rem;
   }
 }
@@ -109,10 +109,7 @@ p {
   box-sizing: border-box;
   line-height: 1.2;
   width: 85%;
-  margin: 0 auto;
-
-  @media screen and (width > 1020px) {
-  }
+  margin: 5rem auto 0;
 }
 
 .hightlight {

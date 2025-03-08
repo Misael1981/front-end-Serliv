@@ -24,12 +24,6 @@
 
 - ## [Transformações 2D](./transformacoes-2D/menu.md)
 
-
-
-
-
-
-
 - ## [Menu Cores e efeitos](cores-efeitos/menu_cores-efeitos.md)
 
 - ## [Menu Responsividade](responsividade/Introducao-menu.md)

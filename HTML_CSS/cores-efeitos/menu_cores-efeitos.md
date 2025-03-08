@@ -1,27 +1,27 @@
+# Cores e Efeitos
 
+- ### [Introdução](introducao.md)
 
-# [Menu HTML_CSS](../readme-HTML.md)
+- ### [Criar Contador via CSS](contador_via_CSS.md)
 
-- ## [Introdução](introducao.md)
+- ### [Linear gradiente e bacground-blend-mode](gradiente-blem_mode.md)
 
-- ## [Criar Contador via CSS](contador_via_CSS.md)
+- ### [color-mix](color-mix.md)
 
-- ## [Linear gradiente e bacground-blend-mode](gradiente-blem_mode.md)
+- ### [Background-clip](background-clip.md)
 
-- ## [color-mix](color-mix.md)
+- ### [hsl](hsl.md)
 
-- ## [Background-clip](background-clip.md)
+- ### [Múltiplos Gradientes](multiplos-gradientes.md)
 
-- ## [hsl](hsl.md)
+- ### [Gradient-Radial](gradient-radial.md)
 
-- ## [Múltiplos Gradientes](multiplos-gradientes.md)
+- ### [Gradient Cônico](#gradient-cônico)
 
-- ## [Gradient-Radial](gradient-radial.md)
+- ### [Repetição de gradiente radial e cônico](repeating-gradiente.md)
 
-- ## [Gradient Cônico](#gradient-cônico)
+- ### [Função clamp()](funcao-clamp.md)
 
-- ## [Repetição de gradiente radial e cônico](repeating-gradiente.md)
+- ### [clip-path](clip-path.md)
 
-- ## [Função clamp()](funcao-clamp.md)
-
-- ## [clip-path](clip-path.md)
+### [Menu HTML_CSS](../readme-HTML.md)

@@ -1,10 +1,10 @@
-#  Media Queries em CSS - Adaptando seu site para diferentes dispositivos
+# Media Queries em CSS - Adaptando seu site para diferentes dispositivos
 
 ## O que são Media Queries?
 
-*Media Queries* são uma extensão dos media types em CSS que permitem criar regras ainda mais específicas, baseadas em características do dispositivo, como largura da tela, resolução, orientação (retrato ou paisagem) e muito mais. Isso é fundamental para criar experiências web responsivas e otimizadas para diversos tamanhos de tela, como smartphones, tablets e desktops.
+_Media Queries_ são uma extensão dos media types em CSS que permitem criar regras ainda mais específicas, baseadas em características do dispositivo, como largura da tela, resolução, orientação (retrato ou paisagem) e muito mais. Isso é fundamental para criar experiências web responsivas e otimizadas para diversos tamanhos de tela, como smartphones, tablets e desktops.
 
-### Por que usar *Media Queries*?
+### Por que usar _Media Queries_?
 
 - **Responsividade**: Adapte o layout e o conteúdo do seu site para diferentes tamanhos de tela.
 - **Acessibilidade**: Ofereça uma experiência melhor para usuários com diferentes necessidades, como aqueles que utilizam leitores de tela.
@@ -67,7 +67,7 @@
 
 ### Combinando múltiplas condições:
 
-Você pode combinar várias condições em uma única *media query* usando operadores lógicos:
+Você pode combinar várias condições em uma única _media query_ usando operadores lógicos:
 
 - **and**: Ambas as condições devem ser verdadeiras.
 - **or**: Pelo menos uma das condições deve ser verdadeira.
@@ -92,4 +92,4 @@ Você pode combinar várias condições em uma única *media query* usando opera
 
 As media queries são uma ferramenta essencial para criar sites responsivos e acessíveis. Ao dominar esses conceitos, você poderá oferecer uma experiência de navegação personalizada para cada usuário, independentemente do dispositivo que ele esteja utilizando.
 
-### [Menu Responsividade](Introducao-menu.md)
+### [Voltar ao Menu Responsividade](../menu.md)

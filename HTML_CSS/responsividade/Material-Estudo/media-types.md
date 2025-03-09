@@ -12,9 +12,10 @@ Em CSS, media types (tipos de mídia) são mecanismos que permitem que você apl
 
 ## Tipos de Media mais comuns:
 
-- **all**: Aplica os estilos a todos os dispositivos.
-- **print**: Aplica os estilos somente quando o documento é impresso.
-- **screen**: Aplica os estilos somente quando o documento é visualizado em uma tela (monitores, smartphones, tablets).
+- `all`: aplica os estilos a todos os dispositivos.
+- `screen`: Aplica os estilos a telas de computadores, tablets e smartphones.
+- `print`: Aplicar estilos a documentos impressos.
+- `speech`: Aplique os estilos aos leitores de tela.
 
 ## Como usar Media Types:
 
@@ -47,15 +48,35 @@ CSS
 ```
 <link rel="stylesheet" href="NOME_DO_ARQUIVO.css" media="print">
 ```
+
 O documento será formatado somente para impressão.
 
 - O que deve ser observado ao se trabalhar dessa maneira, é a ordem dos documentos para que nehuma sobreescreva outra e a espicifidade.
 
+## Função `attr()`
 
+A função `attr()` permite que você acesse o valor de um atributo HTML e use seus estilos CSS. Isso pode ser útil para criar estilos dinâmicos que dependam do conteúdo ou dos atributos de um elemento.
 
+### Sintaxe:
 
+```
+elemento::before {
+  content: attr(atributo);
+}
+```
 
+### Exemplo:
 
+```
+<a href="https://www.exemplo.com" data-texto="Clique aqui">Link</a>
+```
 
+```
+a::after {
+  content: " (" attr(data-texto) ")";
+}
+```
 
-### [Menu Responsividade](Introducao-menu.md)
+Neste exemplo, o texto do atributo `data-texto` é exibido após o link.
+
+### [Voltar ao Menu Responsividade](../menu.md)

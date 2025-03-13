@@ -1,6 +1,7 @@
-#  A Meta Tag Viewport e a Responsividade Web
+# A Meta Tag Viewport e a Responsividade Web
 
 ## O que é a Meta Tag Viewport?
+
 A meta tag viewport é uma tag HTML inserida no cabeçalho `<head>` de uma página web que fornece instruções ao navegador sobre como controlar a dimensão e a escala da página para se ajustar a diferentes tamanhos de tela. Em outras palavras, ela define a área visível do conteúdo web em um dispositivo.
 
 ## Por que ela é importante?
@@ -50,7 +51,7 @@ Sem a meta tag viewport, o navegador pode renderizar a página de forma inadequa
 
 ## Quando usar a meta tag viewport?
 
-A meta tag viewport deve ser inserida em ***todas*** as páginas do seu site, independentemente de você ter um design responsivo ou não. Ela é fundamental para garantir uma experiência adequada em dispositivos móveis.
+A meta tag viewport deve ser inserida em **_todas_** as páginas do seu site, independentemente de você ter um design responsivo ou não. Ela é fundamental para garantir uma experiência adequada em dispositivos móveis.
 
 ### Dicas adicionais:
 
@@ -62,4 +63,4 @@ A meta tag viewport deve ser inserida em ***todas*** as páginas do seu site, in
 
 A meta tag viewport é uma ferramenta essencial para garantir que seu site seja exibido corretamente em diferentes dispositivos. Ao entender como ela funciona e como utilizá-la, você estará dando um passo importante para criar sites responsivos e acessíveis.
 
-### [Menu Responsividade](Introducao-menu.md)
+### [Voltar ao Menu Responsividade](../menu.md)

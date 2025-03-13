@@ -32,7 +32,7 @@ console.log(frutas.lastIndexOf("banana", 2)); // 1
 
 ## `includes()`
 
-- O método `includes()` verifica se um array contém um determinado elemento e retorna trueou false.
+- O método `includes()` verifica se um array contém um determinado elemento e retorna `true` ou `false`.
 - **Sintaxe**: `array.includes(elemento, índiceInicial)`
   - `elemento`: O elemento a ser procurado.
   - `índiceInicial(opcional)`: O índice a partir de qual a busca deve começar.

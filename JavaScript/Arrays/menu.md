@@ -10,4 +10,12 @@
 
 - ### [Métodos reverse() e reduce()](./Material-Estudo/outrosMetodos-04.md)
 
+- ### [Desvendando Array.from() e Array.of()](./Material-Estudo/DesvendandoMetodos-from-of.md)
+
+- ### [Desvendando o Operador Spread ( ...)](./Material-Estudo/spreadOperator.md)
+
+- ### [Dominando o Desestruturando em JavaScript](./Material-Estudo/destruturing.md)
+
+- ### [Loops for...ine for...of](./Material-Estudo/forIn-forOf.md)
+
 ### [Voltar ao Menu JavaScript](../menu-javascript.md)

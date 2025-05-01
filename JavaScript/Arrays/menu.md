@@ -18,4 +18,6 @@
 
 - ### [Loops for...ine for...of](./Material-Estudo/forIn-forOf.md)
 
+- ### [O que é Prototype?](./Material-Estudo/introducaoPrototype.md)
+
 ### [Voltar ao Menu JavaScript](../menu-javascript.md)

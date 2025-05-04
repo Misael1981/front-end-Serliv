@@ -8,4 +8,6 @@
 
 - ### [Arrays](./Arrays/menu.md)
 
+- ### [DOM parte 2](./Dom-02/menu.md)
+
 ### [Menu Principal](../README.md)

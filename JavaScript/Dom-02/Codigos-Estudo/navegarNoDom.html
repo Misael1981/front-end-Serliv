@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navegar No DOM</title>
+  </head>
+  <body>
+    <h1>Teste DOM</h1>
+    <div class="container">
+      <p>teste 1</p>
+      <p>lorem <a href="#">link</a></p>
+
+      <p>teste 2</p>
+
+      <ul>
+        <li>Item 1</li>
+        <li>
+          Item 2
+          <ul>
+            <li>Subitem 1</li>
+            <li>Subitem 2</li>
+            <li>Subitem 3</li>
+          </ul>
+        </li>
+        <li><a href="#">link</a></li>
+      </ul>
+    </div>
+    <script>
+      console.log(document.body); // Acessa o elemento body
+      console.log(document.body.parentNode); // Acessa o elemento pai do body
+      console.log(document.body.parentElement); // Acessa o elemento pai do body (mesma coisa que parentNode)
+    </script>
+  </body>
+</html>
